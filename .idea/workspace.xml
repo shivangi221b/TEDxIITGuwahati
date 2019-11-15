@@ -2,68 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b99de512-061d-4aeb-8c09-c517676b4492" name="Default Changelist" comment="initial commit">
-      <change afterPath="$PROJECT_DIR$/Tedwebsite/blog/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tedwebsite/gallery/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tedwebsite/blog/templates/blog/post_list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tedwebsite/Tedwebsite/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/Tedwebsite/Tedwebsite/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tedwebsite/Tedwebsite/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/Tedwebsite/Tedwebsite/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tedwebsite/blog/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/Tedwebsite/blog/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tedwebsite/blog/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/Tedwebsite/blog/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tedwebsite/blog/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/Tedwebsite/blog/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tedwebsite/blog/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/Tedwebsite/blog/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Tedwebsite/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/Tedwebsite/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tedwebsite/home/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/Tedwebsite/home/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tedwebsite/home/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/Tedwebsite/home/models.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
-  <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Tedwebsite/home/views.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="72">
-              <caret line="4" column="43" selection-start-line="4" selection-start-column="43" selection-end-line="4" selection-end-column="43" />
-              <folding>
-                <element signature="e#0#35#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Tedwebsite/gallery/views.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="5" selection-start-line="5" selection-end-line="6" selection-end-column="44" />
-              <folding>
-                <element signature="e#0#35#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Tedwebsite/blog/views.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="5" column="27" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="27" />
-              <folding>
-                <element signature="e#0#35#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Tedwebsite/Tedwebsite/settings.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="182">
-              <caret line="62" column="31" lean-forward="true" selection-start-line="62" selection-start-column="31" selection-end-line="62" selection-end-column="31" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -84,66 +37,10 @@
   <component name="GithubDefaultAccount">
     <option name="defaultAccountId" value="35c0fb14-39f2-41ed-91c8-4c3b6f39d18e" />
   </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/Tedwebsite/home/migrations/urls.py" />
-        <option value="$PROJECT_DIR$/Tedwebsite/Tedwebsite/urls.py" />
-        <option value="$PROJECT_DIR$/Tedwebsite/gallery/urls.py" />
-        <option value="$PROJECT_DIR$/Tedwebsite/blog/urls.py" />
-        <option value="$PROJECT_DIR$/Tedwebsite/gallery/views.py" />
-        <option value="$PROJECT_DIR$/Tedwebsite/home/urls.py" />
-        <option value="$PROJECT_DIR$/Tedwebsite/blog/views.py" />
-        <option value="$PROJECT_DIR$/Tedwebsite/template/home/index.html" />
-        <option value="$PROJECT_DIR$/Tedwebsite/home/views.py" />
-        <option value="$PROJECT_DIR$/Tedwebsite/Tedwebsite/settings.py" />
-      </list>
-    </option>
-  </component>
-  <component name="ProjectFrameBounds" extendedState="4">
-    <option name="x" value="989" />
-    <option name="y" value="32" />
-    <option name="width" value="931" />
-    <option name="height" value="1048" />
-  </component>
+  <component name="ProjectId" id="1Tf1X05PdrXfp0Qg41LzwXWdbIo" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="Tedx" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Tedx" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Tedx" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Tedx" type="462c0819:PsiDirectoryNode" />
-              <item name="Tedwebsite" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Tedx" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Tedx" type="462c0819:PsiDirectoryNode" />
-              <item name="Tedwebsite" type="462c0819:PsiDirectoryNode" />
-              <item name="Tedwebsite" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Tedx" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Tedx" type="462c0819:PsiDirectoryNode" />
-              <item name="Tedwebsite" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="Scope" />
-    </panes>
-  </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -180,135 +77,23 @@
   <component name="TimeTrackingManager">
     <option name="totallyTimeSpent" value="5543000" />
   </component>
-  <component name="ToolWindowManager">
-    <frame x="989" y="32" width="931" height="1048" extended-state="4" />
-    <editor active="true" />
-    <layout>
-      <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25257143" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Python Console" />
-      <window_info active="true" anchor="bottom" id="Terminal" sideWeight="0.499723" visible="true" weight="0.32925472" />
-      <window_info anchor="bottom" id="Event Log" sideWeight="0.500277" side_tool="true" weight="0.32925472" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="SciView" />
-      <window_info anchor="right" id="Database" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-    </layout>
-  </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="initial commit" />
     <option name="LAST_COMMIT_MESSAGE" value="initial commit" />
-  </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Tedwebsite/home/migrations/urls.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Tedwebsite/home/admin.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Tedwebsite/home/apps.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Tedwebsite/Tedwebsite/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="23" column="1" lean-forward="true" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
-          <folding>
-            <element signature="e#634#666#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Tedwebsite/gallery/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="6" column="1" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
-          <folding>
-            <element signature="e#0#28#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Tedwebsite/blog/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="6" column="1" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
-          <folding>
-            <element signature="e#0#28#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Tedwebsite/home/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Tedwebsite/gallery/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="5" selection-start-line="5" selection-end-line="6" selection-end-column="44" />
-          <folding>
-            <element signature="e#0#35#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Tedwebsite/blog/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="5" column="27" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="27" />
-          <folding>
-            <element signature="e#0#35#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Tedwebsite/template/home/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="9" column="7" lean-forward="true" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Tedwebsite/home/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="4" column="43" selection-start-line="4" selection-start-column="43" selection-end-line="4" selection-end-column="43" />
-          <folding>
-            <element signature="e#0#35#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Tedwebsite/Tedwebsite/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
-          <caret line="62" column="31" lean-forward="true" selection-start-line="62" selection-start-column="31" selection-end-line="62" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
   </component>
   <component name="masterDetails">
     <states>
