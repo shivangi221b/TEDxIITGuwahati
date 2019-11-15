@@ -1,0 +1,14 @@
+*.pyc
+*~
+/.vscode
+__pycache__
+<<<<<<< HEAD
+venv1
+venv
+=======
+venv
+venv1
+>>>>>>> 230ee7cf7ed0ffdd4208fca663cc36038097ffd0
+db.sqlite3
+/static
+.DS_Store
