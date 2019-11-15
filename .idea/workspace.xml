@@ -1,19 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b99de512-061d-4aeb-8c09-c517676b4492" name="Default Changelist" comment="initial commit">
-      <change afterPath="$PROJECT_DIR$/Tedwebsite/templates/gallery/photo.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Tedx.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Tedx.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tedwebsite/Tedwebsite/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/Tedwebsite/Tedwebsite/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tedwebsite/Tedwebsite/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/Tedwebsite/Tedwebsite/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tedwebsite/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/Tedwebsite/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tedwebsite/gallery/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/Tedwebsite/gallery/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tedwebsite/gallery/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/Tedwebsite/gallery/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tedwebsite/gallery/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/Tedwebsite/gallery/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tedwebsite/gallery/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/Tedwebsite/gallery/views.py" afterDir="false" />
-    </list>
+    <list default="true" id="b99de512-061d-4aeb-8c09-c517676b4492" name="Default Changelist" comment="initial commit" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
