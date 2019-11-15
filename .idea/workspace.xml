@@ -1,7 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
+<<<<<<< HEAD
     <list default="true" id="b99de512-061d-4aeb-8c09-c517676b4492" name="Default Changelist" comment="initial commit" />
+=======
+    <list default="true" id="b99de512-061d-4aeb-8c09-c517676b4492" name="Default Changelist" comment="initial commit">
+      <change afterPath="$PROJECT_DIR$/Tedwebsite/blog/templates/blog/post_list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tedwebsite/blog/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/Tedwebsite/blog/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tedwebsite/blog/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/Tedwebsite/blog/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tedwebsite/blog/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/Tedwebsite/blog/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tedwebsite/blog/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/Tedwebsite/blog/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tedwebsite/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/Tedwebsite/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tedwebsite/home/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/Tedwebsite/home/models.py" afterDir="false" />
+    </list>
+>>>>>>> 230ee7cf7ed0ffdd4208fca663cc36038097ffd0
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,9 +38,17 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+<<<<<<< HEAD
   <component name="ProjectId" id="1TeyVqiWtNBuevW2zVT753ZG8a5" />
+=======
+  <component name="GithubDefaultAccount">
+    <option name="defaultAccountId" value="35c0fb14-39f2-41ed-91c8-4c3b6f39d18e" />
+  </component>
+  <component name="ProjectId" id="1Tf1X05PdrXfp0Qg41LzwXWdbIo" />
+>>>>>>> 230ee7cf7ed0ffdd4208fca663cc36038097ffd0
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />

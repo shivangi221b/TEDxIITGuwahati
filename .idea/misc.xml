@@ -3,7 +3,11 @@
   <component name="JavaScriptSettings">
     <option name="languageLevel" value="ES6" />
   </component>
+<<<<<<< HEAD
   <component name="ProjectRootManager" version="2" project-jdk-name="Python 3.7 (proj1)" project-jdk-type="Python SDK" />
+=======
+  <component name="ProjectRootManager" version="2" project-jdk-name="Python 3.6 (Tedx)" project-jdk-type="Python SDK" />
+>>>>>>> 230ee7cf7ed0ffdd4208fca663cc36038097ffd0
   <component name="PyCharmProfessionalAdvertiser">
     <option name="shown" value="true" />
   </component>
