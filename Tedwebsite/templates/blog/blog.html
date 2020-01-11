@@ -113,26 +113,27 @@
             <div class="row">
                  {% for post in posts %}
                 <!-- Single Blog Area -->
-                <div class="col-12 col-md-6 col-xl-4">
+                <a href="{{post.link}}" target="_blank">
+                    <div class="col-12 col-md-6 col-xl-4">
                     <div class="single-blog-area style-2 wow fadeInUp" data-wow-delay="300ms">
                         <!-- Single blog Thumb -->
-                        <div class="single-blog-thumb">
-                            <img src='{% static "img/bg-img/18.jpg" %}' alt="">
+                        <div class="single-blog-thumb" >
+                            <img src="/static/img/bg-img/{{post.photo}}.jpg" alt="">
                         </div>
                         <div class="single-blog-text text-center">
-                            <a class="blog-title" href="#">{{ post.title }}</a>
+                            <a class="blog-title" href="{{post.link}}" target="_blank">{{ post.title }}</a>
                             <!-- Post Meta -->
-                            <div class="post-meta">
+                             <div class="post-meta">
                                 <a class="post-date" href="#"><i class="zmdi zmdi-alarm-check"></i> {{ post.published_date }}</a>
                                 <a class="post-author" href="#"><i class="zmdi zmdi-account"></i> {{ post.author }}</a>
-                            </div>
+                             </div>
                             <p>{{ post.text|linebreaksbr }}</p>
                         </div>
                         <div class="blog-btn">
-                            <a href="#"><i class="zmdi zmdi-long-arrow-right"></i></a>
+                            <a href="{{post.link}}" target="_blank"><i class="zmdi zmdi-long-arrow-right"></i></a>
                         </div>
                     </div>
-                </div>
+                </div></a>
                 {% endfor %}
                 <!--&lt;!&ndash; Single Blog Area &ndash;&gt;-->
                 <!--<div class="col-12 col-md-6 col-xl-4">-->
