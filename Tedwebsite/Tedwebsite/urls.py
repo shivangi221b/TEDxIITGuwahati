@@ -18,6 +18,7 @@ from django.conf.urls.static import static
 from django.contrib import admin
 from django.urls import path, include
 from speakers import views as sv
+from attendees import views as av
 
 urlpatterns = [
     path('admin/', admin.site.urls),
@@ -27,6 +28,8 @@ urlpatterns = [
     path('about_us.html', include('about_us.urls')),
     path('speakers.html/', include('speakers.urls')),
     path('add_speaker.html', sv.addSpeaker),
+    path('add_attendee.html', av.addAttendee),
+
 ]
 
 if settings.DEBUG:

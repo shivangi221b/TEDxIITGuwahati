@@ -35,6 +35,7 @@ INSTALLED_APPS = [
     'blog.apps.BlogConfig',
     'gallery.apps.GalleryConfig',
     'speakers.apps.SpeakersConfig',
+    'attendees.apps.AttendeesConfig',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
