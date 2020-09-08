@@ -17,6 +17,7 @@ from django.conf import settings
 from django.conf.urls.static import static
 from django.contrib import admin
 from django.urls import path, include
+from speakers import views as sv
 
 urlpatterns = [
     path('admin/', admin.site.urls),
@@ -24,7 +25,8 @@ urlpatterns = [
     path('gallery.html', include('gallery.urls')),
     path('blog.html', include('blog.urls')),
     path('about_us.html', include('about_us.urls')),
-    path('speakers.html', include('speakers.urls')),
+    path('speakers.html/', include('speakers.urls')),
+    path('add_speaker.html', sv.addSpeaker),
 ]
 
 if settings.DEBUG:
