@@ -23,10 +23,11 @@ from attendees import views as av
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', include('home.urls')),
+    path('contact.html', include('home.urls')),
     path('gallery.html', include('gallery.urls')),
     path('blog.html', include('blog.urls')),
     path('about_us.html', include('about_us.urls')),
-    path('speakers.html/', include('speakers.urls')),
+    path('speakers.html', include('speakers.urls')),
     path('add_speaker.html', sv.addSpeaker),
     path('add_attendee.html', av.addAttendee),
 
