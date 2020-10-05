@@ -28,7 +28,7 @@ urlpatterns = [
     path('blog.html', include('blog.urls')),
     path('about_us.html', include('about_us.urls')),
     path('speakers.html', include('speakers.urls')),
-    path('add_speaker.html', sv.addSpeaker),
+    path('nominate_speaker.html', sv.addSpeaker),
     path('add_attendee.html', av.addAttendee),
 
 ]

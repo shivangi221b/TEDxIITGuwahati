@@ -7,7 +7,8 @@ from .models import Speaker
 class SpeakerModelForm(forms.ModelForm):
     class Meta:
         model = Speaker
-        fields = {'name', 'email', 'comment'}
+        fields = {'nominator_name', 'nominee_name', 'email', 'nominee_about', 'talk_about', 'social_links',
+                  'know_speaker_description', 'spoken_publicly_links'}
 
     def __init__(self, *args, **kwargs):
         super(SpeakerModelForm, self).__init__(*args, **kwargs)
@@ -16,8 +17,13 @@ class SpeakerModelForm(forms.ModelForm):
         self.helper.form_method = 'post'
 
         self.helper.layout = Layout(
-            'name',
+            'nominator_name',
+            'nominee_name',
             'email',
-            'comment',
-            Submit('submit', 'Submit', css_class='btn-success')
+            'nominee_about',
+            'talk_about',
+            'social_links',
+            'know_speaker_description',
+            'spoken_publicly_links',
+            Submit('submit', 'Submit', css_class='btn-success'),
         )
