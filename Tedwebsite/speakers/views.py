@@ -2,6 +2,7 @@ from django.shortcuts import render
 from django.utils import timezone
 from django.http import HttpResponse
 from .forms import SpeakerModelForm
+from django.contrib import messages
 
 
 def speakers_home(request):

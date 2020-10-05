@@ -1,22 +1,4 @@
-{% load crispy_forms_tags %}
-<!--<!DOCTYPE html>-->
-<!--<html lang="en">-->
-<!--<head>-->
-<!--    <meta charset="UTF-8">-->
-<!--    <meta name="viewport" content="width-device-width, initial-scale-1.0">-->
-<!--    <meta http-equiv="X-UA-Compatible" content="ie=edge">-->
-<!--    <title>Add Speaker</title>-->
-<!--    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">-->
-<!--</head>-->
-<!--<body style="padding: 20px;">-->
-<!--    {% crispy form form.helper %}-->
-<!--&lt;!&ndash;    <form method="post">&ndash;&gt;-->
-<!--&lt;!&ndash;        {% csrf_token %}&ndash;&gt;-->
-<!--&lt;!&ndash;        <button type="submit">Submit</button>&ndash;&gt;-->
-<!--&lt;!&ndash;    </form>&ndash;&gt;-->
-
-<!--</body>-->
-<!--</html>-->
+<!--{% load crispy_forms_tags %}-->
 <!DOCTYPE html>
 {% load static %}
 
@@ -79,22 +61,6 @@
                                     <ul class="dropdown">
 <!--                                        <li><a href="nominate_speaker.html">Nominate Speaker</a></li>-->
                                         <li><a href="">Speak Yourself</a></li>
-<!--                                        <li><a href="">- Home</a></li>-->
-<!--                                        <li><a href="about_us.html">About Us</a></li>-->
-<!--                                        <li><a href="speakers.html">- Speakers</a></li>-->
-<!--                                        <li><a href="schedule.html">- Schedule</a></li>-->
-<!--                                        <li><a href="tickets.html">- Tickets</a></li>-->
-<!--                                        <li><a href="blog.html">- Blog</a></li>-->
-<!--                                        <li><a href="single-blog.html">- Single Blog</a></li>-->
-<!--                                        <li><a href="contact.html">- Contact</a></li>-->
-<!--                                        <li><a href="#">- Dropdown</a>-->
-<!--                                            <ul class="dropdown">-->
-<!--                                                <li><a href="#">- Dropdown Item</a></li>-->
-<!--                                                <li><a href="#">- Dropdown Item</a></li>-->
-<!--                                                <li><a href="#">- Dropdown Item</a></li>-->
-<!--                                                <li><a href="#">- Dropdown Item</a></li>-->
-<!--                                            </ul>-->
-<!--                                        </li>-->
                                     </ul>
                                 </li>
                             </ul>
@@ -116,13 +82,26 @@
             <div class="row h-100 align-items-center">
                 <div class="col-12">
                     <div class="breadcrumb-content">
-                        <h2 class="page-title">Nominate a Speaker</h2>
-<!--                        <nav aria-label="breadcrumb">-->
-<!--                            <ol class="breadcrumb">-->
-<!--                                <li class="breadcrumb-item"><a href="home/index.html">Home</a></li> &lt;!&ndash;check how to link vie view&ndash;&gt;-->
-<!--                                <li class="breadcrumb-item active" aria-current="page">Speakers</li>-->
-<!--                            </ol>-->
-<!--                        </nav>-->
+                        <h1 class="page-title">Nominate a Speaker</h1>
+                        <nav aria-label="breadcrumb">
+                            <ol class="breadcrumb">
+                                <h6>
+                                    Do you know somebody you think would make an incredible TEDx speaker? Do you have your own idea or perspective, you believe, needs to be shared?
+
+                                </h6>
+                                <h6>
+                                    We invite you to submit a speaker nomination!
+                                </h6>
+                                <h6>
+                                    To nominate someone/yourself as a speaker for our TEDx event, fill out the speaker nomination form. Kindly keep in mind that our curators will choose speakers at their discretion, based on the ideal fit to our theme. Once submitted, all nominations will remain in our speaker database for further consideration, as we plan our upcoming flagship event in February 2021.
+                                </h6>
+                                <h6>
+                                    Thank you!
+                                </h6>
+                            </ol>
+                        </nav>
+                        <br />
+<!--                        <a class="typeform-share button" href="https://form.typeform.com/to/RJxCgkec" data-mode="popup" style="display:inline-block;text-decoration:none;background-color:#292673;color:white;cursor:pointer;font-family:Helvetica,Arial,sans-serif;font-size:15px;line-height:37.5px;text-align:center;margin:0;height:37.5px;padding:0px 25px;border-radius:18px;max-width:100%;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;font-weight:bold;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;" target="_blank">Fill here </a> <script> (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm_share", b="https://embed.typeform.com/"; if(!gi.call(d,id)){ js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })() </script>-->
                     </div>
                 </div>
             </div>
@@ -130,105 +109,169 @@
     </section>
     <!-- Breadcrumb Area End -->
 
+
+
     <!-- Form Area Start  -->
-    <section class="our-speaker-area section-padding-100">
-<!--        {% crispy form form.helper %}-->
-        <div class="container">
-            <div class="row">
-                {% crispy form form.helper %}
-            </div>
-
-<!--            <div class="row">-->
-<!--                &lt;!&ndash; Heading &ndash;&gt;-->
-<!--                <div class="col-12">-->
-<!--                    <div class="section-heading-2 text-center wow fadeInUp" data-wow-delay="300ms">-->
-<!--                        <p>Have Question?</p>-->
-<!--                        <h4>Contact us</h4>-->
-<!--                    </div>-->
-<!--                </div>-->
-<!--            </div>-->
-
+<!--    <section class="our-speaker-area section-padding-100">-->
+<!--&lt;!&ndash;        {% crispy form form.helper %}&ndash;&gt;-->
+<!--        <div class="container">-->
 <!--            <div class="row justify-content-between">-->
-<!--                <div class="col-12 col-sm-3">-->
-<!--                    <div class="contact-information mb-100">-->
-<!--                        &lt;!&ndash; Single Contact Info &ndash;&gt;-->
-<!--                        <div class="single-contact-info wow fadeInUp" data-wow-delay="300ms">-->
-<!--                            <p>Address:</p>-->
-<!--                            <h6>Indian Institute of Technology, Guwahati</h6>-->
-<!--                        </div>-->
-<!--                        &lt;!&ndash; Single Contact Info &ndash;&gt;-->
-<!--                        <div class="single-contact-info wow fadeInUp" data-wow-delay="300ms">-->
-<!--                            <p>Phone:</p>-->
-<!--                            <h6>+91 9085069666 (Harshith Ravikumar)</h6>-->
-<!--                        </div>-->
-<!--                        &lt;!&ndash; Single Contact Info &ndash;&gt;-->
-<!--                        <div class="single-contact-info wow fadeInUp" data-wow-delay="300ms">-->
-<!--                            <p>Email:</p>-->
-<!--                            <h6>tedxtalk.iitg@gmail.com</h6>-->
-<!--                        </div>-->
-<!--                        &lt;!&ndash; Single Contact Info &ndash;&gt;-->
-
-<!--                    </div>-->
-<!--                </div>-->
-
-<!--                <div class="row">-->
-<!--                    &lt;!&ndash; Contact Form col-12 col-sm-8&ndash;&gt;-->
-<!--                    <div class="contact_from_area mb-100 clearfix wow fadeInUp" data-wow-delay="300ms">-->
-<!--                        <div class="contact_form">-->
-<!--&lt;!&ndash;                            {% crispy form form.helper %}&ndash;&gt;-->
-<!--                                {% csrf_token %}-->
-<!--                                <div class="form-group">-->
-<!--                                    {% crispy form form.helper %}-->
-<!--                                </div>-->
-
-<!--&lt;!&ndash;                            <form action="mail.php" method="post" id="main_contact_form">&ndash;&gt;-->
-<!--&lt;!&ndash;                                <div class="contact_input_area">&ndash;&gt;-->
-<!--&lt;!&ndash;                                    <div id="success_fail_info"></div>&ndash;&gt;-->
-<!--&lt;!&ndash;                                    <div class="row">&ndash;&gt;-->
-<!--&lt;!&ndash;                                        &lt;!&ndash; Form Group &ndash;&gt;&ndash;&gt;-->
-<!--&lt;!&ndash;                                        <div class="col-12 col-lg-6">&ndash;&gt;-->
-<!--&lt;!&ndash;                                            <div class="form-group">&ndash;&gt;-->
-<!--&lt;!&ndash;                                                <input type="text" class="form-control mb-30" name="{{form.name.name}}" id="{{form.name.id_for_label}}"&ndash;&gt;-->
-<!--&lt;!&ndash;                                                       {% if form.name.value != None %}value="{{ form.name.value|stringformat:'s' }}"{% endif %}&ndash;&gt;-->
-<!--&lt;!&ndash;                                                        maxlength="{{ form.name.field.max_length }}" {% if form.name.field.required %}required{% endif %}&ndash;&gt;-->
-<!--&lt;!&ndash;                                                       placeholder="Your Name">&ndash;&gt;-->
-<!--&lt;!&ndash;                                            </div>&ndash;&gt;-->
-<!--&lt;!&ndash;                                        </div>&ndash;&gt;-->
-<!--&lt;!&ndash;                                        &lt;!&ndash; Form Group &ndash;&gt;&ndash;&gt;-->
-<!--&lt;!&ndash;                                        <div class="col-12 col-lg-6">&ndash;&gt;-->
-<!--&lt;!&ndash;                                            <div class="form-group">&ndash;&gt;-->
-<!--&lt;!&ndash;                                                <input type="text" class="form-control mb-30" name="name" id="name2" placeholder="Last Name">&ndash;&gt;-->
-<!--&lt;!&ndash;                                            </div>&ndash;&gt;-->
-<!--&lt;!&ndash;                                        </div>&ndash;&gt;-->
-<!--&lt;!&ndash;                                        &lt;!&ndash; Form Group &ndash;&gt;&ndash;&gt;-->
-<!--&lt;!&ndash;                                        <div class="col-12 col-lg-6">&ndash;&gt;-->
-<!--&lt;!&ndash;                                            <div class="form-group">&ndash;&gt;-->
-<!--&lt;!&ndash;                                                <input type="email" class="form-control mb-30" name="email" id="email" placeholder="E-mail">&ndash;&gt;-->
-<!--&lt;!&ndash;                                            </div>&ndash;&gt;-->
-<!--&lt;!&ndash;                                        </div>&ndash;&gt;-->
-<!--&lt;!&ndash;                                        &lt;!&ndash; Form Group &ndash;&gt;&ndash;&gt;-->
-<!--&lt;!&ndash;                                        <div class="col-12 col-lg-6">&ndash;&gt;-->
-<!--&lt;!&ndash;                                            <div class="form-group">&ndash;&gt;-->
-<!--&lt;!&ndash;                                                <input type="text" class="form-control mb-30" name="subject" id="subject" placeholder="Your Number">&ndash;&gt;-->
-<!--&lt;!&ndash;                                            </div>&ndash;&gt;-->
-<!--&lt;!&ndash;                                        </div>&ndash;&gt;-->
-<!--&lt;!&ndash;                                        &lt;!&ndash; Form Group &ndash;&gt;&ndash;&gt;-->
-<!--&lt;!&ndash;                                        <div class="col-12">&ndash;&gt;-->
-<!--&lt;!&ndash;                                            <div class="form-group">&ndash;&gt;-->
-<!--&lt;!&ndash;                                                <textarea name="message" class="form-control mb-30" id="message" cols="30" rows="6" placeholder="Your Message *"></textarea>&ndash;&gt;-->
-<!--&lt;!&ndash;                                            </div>&ndash;&gt;-->
-<!--&lt;!&ndash;                                        </div>&ndash;&gt;-->
-<!--&lt;!&ndash;                                        &lt;!&ndash; Button &ndash;&gt;&ndash;&gt;-->
-<!--&lt;!&ndash;                                        <div class="col-12">&ndash;&gt;-->
-<!--&lt;!&ndash;                                            <button type="submit" class="btn confer-btn">Send Message <i class="zmdi zmdi-long-arrow-right"></i></button>&ndash;&gt;-->
-<!--&lt;!&ndash;                                        </div>&ndash;&gt;-->
-<!--&lt;!&ndash;                                    </div>&ndash;&gt;-->
-<!--&lt;!&ndash;                                </div>&ndash;&gt;-->
-<!--&lt;!&ndash;                            </form>&ndash;&gt;-->
-<!--                        </div>-->
+<!--                {% csrf_token %}-->
+<!--&lt;!&ndash;                {% if form.errors %}&ndash;&gt;-->
+<!--&lt;!&ndash;                    {% for field in form %}&ndash;&gt;-->
+<!--&lt;!&ndash;                        {% for error in field.errors %}&ndash;&gt;-->
+<!--&lt;!&ndash;                            <div class="alert alert-danger">&ndash;&gt;-->
+<!--&lt;!&ndash;                                <strong>{{ error|escape }}</strong>&ndash;&gt;-->
+<!--&lt;!&ndash;                            </div>&ndash;&gt;-->
+<!--&lt;!&ndash;                        {% endfor %}&ndash;&gt;-->
+<!--&lt;!&ndash;                    {% endfor %}&ndash;&gt;-->
+<!--&lt;!&ndash;                    {% for error in form.non_field_errors %}&ndash;&gt;-->
+<!--&lt;!&ndash;                        <div class="alert alert-danger">&ndash;&gt;-->
+<!--&lt;!&ndash;                            <strong>{{ error|escape }}</strong>&ndash;&gt;-->
+<!--&lt;!&ndash;                        </div>&ndash;&gt;-->
+<!--&lt;!&ndash;                    {% endfor %}&ndash;&gt;-->
+<!--&lt;!&ndash;                {% endif %}&ndash;&gt;-->
+<!--                {% crispy form form.helper %}-->
+<!--&lt;!&ndash;                <form method="post">&ndash;&gt;-->
+<!--&lt;!&ndash;                    <div id="div_id_nominee_name" class="control-group">&ndash;&gt;-->
+<!--&lt;!&ndash;                        <label for="id_nominee_name" class="control-label requiredField">&ndash;&gt;-->
+<!--&lt;!&ndash;                            Nominee's Name:&ndash;&gt;-->
+<!--&lt;!&ndash;                            <span class="asteriskField">*</span>&ndash;&gt;-->
+<!--&lt;!&ndash;                            ::after&ndash;&gt;-->
+<!--&lt;!&ndash;                        </label>&ndash;&gt;-->
+<!--&lt;!&ndash;                        <div class="controls">&ndash;&gt;-->
+<!--&lt;!&ndash;                            <input type="text" name="nominee_name" maxlength="200" class="textinput textInput"&ndash;&gt;-->
+<!--&lt;!&ndash;                            required id="id_nominee_name" >&ndash;&gt;-->
+<!--&lt;!&ndash;                        </div>&ndash;&gt;-->
 <!--&lt;!&ndash;                    </div>&ndash;&gt;-->
-<!--                </div>-->
+<!--&lt;!&ndash;                </form>&ndash;&gt;-->
 <!--            </div>-->
+<!--        </div>-->
+<!--    </section>-->
+
+    <section class="contact-our-area section-padding-100-0">
+        <div class="container">
+            <div class="row justify-content-between">
+                <div class="row">
+                    <!-- Contact Form -->
+                    <div class="contact_from_area mb-100 clearfix wow fadeInUp" data-wow-delay="300ms">
+                        <div class="contact_form">
+                            <form method="post" name="submit-to-google-sheet" id="main_contact_form">
+                                {% csrf_token %}
+                                <div class="contact_input_area">
+                                    <div id="success_fail_info"></div>
+                                    <div class="row">
+                                        <!-- Form Group -->
+                                        <div class="col-12 col-lg-6">
+                                            <div class="form-group">
+                                                <label style="color: white">
+                                                    Nominee's Name:     *
+                                                </label>
+                                                <input type="text" class="form-control mb-30" name="Nominee First Name" id="name1" placeholder="First Name" required>
+                                            </div>
+                                        </div>
+                                        <!-- Form Group -->
+                                        <div class="col-12 col-lg-6">
+                                            <div class="form-group">
+                                                <label style="color: #21235c">
+                                                    Nominee's Name:     *
+                                                </label>
+                                                <input type="text" class="form-control mb-30" name="Nominee Last Name" id="name2" placeholder="Last Name" required>
+                                            </div>
+                                        </div>
+                                        <!-- Form Group -->
+                                        <div class="col-12 col-lg-6">
+                                            <div class="form-group">
+                                                <label style="color: white">
+                                                    Your Name:  *
+                                                </label>
+                                                <input type="text" class="form-control mb-30" name="Nominator First Name" id="name3" placeholder="First Name" required>
+                                            </div>
+                                        </div>
+                                        <!-- Form Group -->
+                                        <div class="col-12 col-lg-6">
+                                            <div class="form-group">
+                                                <label style="color: #21235c">
+                                                    Nominee's Name:     *
+                                                </label>
+                                                <input type="text" class="form-control mb-30" name="Nominator Last Name" id="name4" placeholder="Last Name" required>
+                                            </div>
+                                        </div>
+                                        <!-- Form Group -->
+                                        <div class="col-12 col-lg-6">
+                                            <div class="form-group">
+                                                <label style="color: white">
+                                                    Your Email address:     *
+                                                </label>
+                                                <input type="email" class="form-control mb-30" name="email" id="email" placeholder="E-mail" required>
+                                            </div>
+                                        </div>
+                                        <!-- Form Group -->
+                                        <div class="col-12 col-lg-6">
+                                            <div class="form-group">
+                                                <label style="color: white">
+                                                    Your Contact Number:    *
+                                                </label>
+                                                <input type="number" class="form-control mb-30" name="contact" id="contact" placeholder="Your Number" required>
+                                            </div>
+                                        </div>
+                                        <!-- Form Group -->
+                                        <div class="col-12">
+                                            <div class="form-group">
+                                                <label style="color: white">
+                                                    Tell us briefly about the nominee. What’s their occupation? Any honors or distinctions? Their recent work? Why are you recommending them? *
+                                                </label>
+                                                <textarea class="form-control mb-30" name="About Nominee" id="message1" cols="30" rows="6" placeholder="Your Message" required></textarea>
+                                            </div>
+                                        </div>
+                                        <!-- Form Group -->
+                                        <div class="col-12">
+                                            <div class="form-group">
+                                                <label style="color: white">
+                                                    What might their TEDxIITGuwahati talk be about? Focus on the idea - this is the most important section.     *
+                                                </label>
+                                                <textarea class="form-control mb-30" name="Talk Idea" id="message2" cols="30" rows="6" placeholder="Your Message" required></textarea>
+                                            </div>
+                                        </div>
+                                        <!-- Form Group -->
+                                        <div class="col-12">
+                                            <div class="form-group">
+                                                <label style="color: white">
+                                                    Please provide links to any social media handles/articles/web pages about the nominee:  *
+                                                </label>
+                                                <textarea class="form-control mb-30" name="Links" id="message3" cols="30" rows="6" placeholder="Your Message" required></textarea>
+                                            </div>
+                                        </div>
+                                        <!-- Form Group -->
+                                        <div class="col-12">
+                                            <div class="form-group">
+                                                <label style="color: white">
+                                                    Do you know this person personally? - It’s okay if you do not. If yes, please describe: *
+                                                </label>
+                                                <textarea class="form-control mb-30" name="Know Personally" id="message4" cols="30" rows="6" placeholder="Your Message" required></textarea>
+                                            </div>
+                                        </div>
+                                        <!-- Form Group -->
+                                        <div class="col-12">
+                                            <div class="form-group">
+                                                <label style="color: white">
+                                                     Has this person spoken publicly before? If so, where? Please provide video links if possible. *
+                                                </label>
+                                                <textarea class="form-control mb-30" name="Spoken Before" id="message5" cols="30" rows="6" placeholder="Your Message" required></textarea>
+                                            </div>
+                                        </div>
+                                        <!-- Button -->
+                                        <div class="col-12">
+                                                <button type="submit" id="submit-form" class="btn confer-btn" >Send Message <i class="zmdi zmdi-long-arrow-right"></i></button>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
 
@@ -334,6 +377,36 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
     <script src='{% static "js/confer.bundle.js" %}'></script>
     <!-- Active -->
     <script src='{% static "js/default-assets/active.js" %}'></script>
+    <!--  Form Script  -->
+<!--    <script>-->
+<!--        var $form = $('form#main_contact_form'),-->
+<!--        url = 'https://script.google.com/macros/s/AKfycbwwsZrsw-iV0xJVQXJ8KumYQD0tdjVfRRmkVwi7WQ1I1I_3s1Y/exec'-->
+
+<!--        $('#submit-form').on('click', function(e) {-->
+<!--          e.preventDefault();-->
+<!--          var jqxhr = $.ajax({-->
+<!--            url: url,-->
+<!--            method: "GET",-->
+<!--            dataType: "json",-->
+<!--            data: $form.serializeObject()-->
+<!--          }).success(-->
+<!--            // do something-->
+<!--          );-->
+<!--        })-->
+<!--    </script>-->
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbwwsZrsw-iV0xJVQXJ8KumYQD0tdjVfRRmkVwi7WQ1I1I_3s1Y/exec'
+        const form = document.forms['submit-to-google-sheet']
+
+        form.addEventListener('submit', e => {
+            e.preventDefault()
+            fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+              .then(location.reload())
+              .catch(error => console.error('Error!', error.message))
+        })
+    </script>
+<!--response => console.log('Success!', response)-->
+
 
 </body>
 </html>
