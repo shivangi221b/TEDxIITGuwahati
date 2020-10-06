@@ -60,7 +60,7 @@
                                 <li><a href="#">More</a>
                                     <ul class="dropdown">
 <!--                                        <li><a href="nominate_speaker.html">Nominate Speaker</a></li>-->
-                                        <li><a href="nominate_yourself.html">Speak Yourself</a></li>
+                                        <li><a href="nominate_yourself.html">Nominate Myself</a></li>
                                     </ul>
                                 </li>
                             </ul>
@@ -101,7 +101,9 @@
                             </ol>
                         </nav>
                         <br />
-<!--                        <a class="typeform-share button" href="https://form.typeform.com/to/RJxCgkec" data-mode="popup" style="display:inline-block;text-decoration:none;background-color:#292673;color:white;cursor:pointer;font-family:Helvetica,Arial,sans-serif;font-size:15px;line-height:37.5px;text-align:center;margin:0;height:37.5px;padding:0px 25px;border-radius:18px;max-width:100%;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;font-weight:bold;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;" target="_blank">Fill here </a> <script> (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm_share", b="https://embed.typeform.com/"; if(!gi.call(d,id)){ js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })() </script>-->
+
+                        <!-- Form Link -->
+                        <a class="typeform-share button" href="https://form.typeform.com/to/RJxCgkec" data-mode="popup" style="display:inline-block;text-decoration:none;background-color:#292673;color:white;cursor:pointer;font-family:Helvetica,Arial,sans-serif;font-size:15px;line-height:37.5px;text-align:center;margin:0;height:37.5px;padding:0px 25px;border-radius:18px;max-width:100%;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;font-weight:bold;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;" target="_blank">Fill here </a> <script> (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm_share", b="https://embed.typeform.com/"; if(!gi.call(d,id)){ js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })() </script>
                     </div>
                 </div>
             </div>
@@ -149,131 +151,131 @@
 <!--        </div>-->
 <!--    </section>-->
 
-    <section class="contact-our-area section-padding-100-0">
-        <div class="container">
-            <div class="row justify-content-between">
-                <div class="row">
-                    <!-- Contact Form -->
-                    <div class="contact_from_area mb-100 clearfix wow fadeInUp" data-wow-delay="300ms">
-                        <div class="contact_form">
-                            <form method="post" name="submit-to-google-sheet" id="main_contact_form">
-                                {% csrf_token %}
-                                <div class="contact_input_area">
-                                    <div id="success_fail_info"></div>
-                                    <div class="row">
-                                        <!-- Form Group -->
-                                        <div class="col-12 col-lg-6">
-                                            <div class="form-group">
-                                                <label style="color: white">
-                                                    Nominee's Name:     *
-                                                </label>
-                                                <input type="text" class="form-control mb-30" name="Nominee First Name" id="name1" placeholder="First Name" required>
-                                            </div>
-                                        </div>
-                                        <!-- Form Group -->
-                                        <div class="col-12 col-lg-6">
-                                            <div class="form-group">
-                                                <label style="color: #21235c">
-                                                    Nominee's Name:     *
-                                                </label>
-                                                <input type="text" class="form-control mb-30" name="Nominee Last Name" id="name2" placeholder="Last Name" required>
-                                            </div>
-                                        </div>
-                                        <!-- Form Group -->
-                                        <div class="col-12 col-lg-6">
-                                            <div class="form-group">
-                                                <label style="color: white">
-                                                    Your Name:  *
-                                                </label>
-                                                <input type="text" class="form-control mb-30" name="Nominator First Name" id="name3" placeholder="First Name" required>
-                                            </div>
-                                        </div>
-                                        <!-- Form Group -->
-                                        <div class="col-12 col-lg-6">
-                                            <div class="form-group">
-                                                <label style="color: #21235c">
-                                                    Nominee's Name:     *
-                                                </label>
-                                                <input type="text" class="form-control mb-30" name="Nominator Last Name" id="name4" placeholder="Last Name" required>
-                                            </div>
-                                        </div>
-                                        <!-- Form Group -->
-                                        <div class="col-12 col-lg-6">
-                                            <div class="form-group">
-                                                <label style="color: white">
-                                                    Your Email address:     *
-                                                </label>
-                                                <input type="email" class="form-control mb-30" name="email" id="email" placeholder="E-mail" required>
-                                            </div>
-                                        </div>
-                                        <!-- Form Group -->
-                                        <div class="col-12 col-lg-6">
-                                            <div class="form-group">
-                                                <label style="color: white">
-                                                    Your Contact Number:    *
-                                                </label>
-                                                <input type="number" class="form-control mb-30" name="contact" id="contact" placeholder="Your Number" required>
-                                            </div>
-                                        </div>
-                                        <!-- Form Group -->
-                                        <div class="col-12">
-                                            <div class="form-group">
-                                                <label style="color: white">
-                                                    Tell us briefly about the nominee. What’s their occupation? Any honors or distinctions? Their recent work? Why are you recommending them? *
-                                                </label>
-                                                <textarea class="form-control mb-30" name="About Nominee" id="message1" cols="30" rows="6" placeholder="Your Message" required></textarea>
-                                            </div>
-                                        </div>
-                                        <!-- Form Group -->
-                                        <div class="col-12">
-                                            <div class="form-group">
-                                                <label style="color: white">
-                                                    What might their TEDxIITGuwahati talk be about? Focus on the idea - this is the most important section.     *
-                                                </label>
-                                                <textarea class="form-control mb-30" name="Talk Idea" id="message2" cols="30" rows="6" placeholder="Your Message" required></textarea>
-                                            </div>
-                                        </div>
-                                        <!-- Form Group -->
-                                        <div class="col-12">
-                                            <div class="form-group">
-                                                <label style="color: white">
-                                                    Please provide links to any social media handles/articles/web pages about the nominee:  *
-                                                </label>
-                                                <textarea class="form-control mb-30" name="Links" id="message3" cols="30" rows="6" placeholder="Your Message" required></textarea>
-                                            </div>
-                                        </div>
-                                        <!-- Form Group -->
-                                        <div class="col-12">
-                                            <div class="form-group">
-                                                <label style="color: white">
-                                                    Do you know this person personally? - It’s okay if you do not. If yes, please describe: *
-                                                </label>
-                                                <textarea class="form-control mb-30" name="Know Personally" id="message4" cols="30" rows="6" placeholder="Your Message" required></textarea>
-                                            </div>
-                                        </div>
-                                        <!-- Form Group -->
-                                        <div class="col-12">
-                                            <div class="form-group">
-                                                <label style="color: white">
-                                                     Has this person spoken publicly before? If so, where? Please provide video links if possible. *
-                                                </label>
-                                                <textarea class="form-control mb-30" name="Spoken Before" id="message5" cols="30" rows="6" placeholder="Your Message" required></textarea>
-                                            </div>
-                                        </div>
-                                        <!-- Button -->
-                                        <div class="col-12">
-                                                <button type="submit" id="submit-form" class="btn confer-btn" >Send Message <i class="zmdi zmdi-long-arrow-right"></i></button>
-                                        </div>
+<!--    <section class="contact-our-area section-padding-100-0">-->
+<!--        <div class="container">-->
+<!--            <div class="row justify-content-between">-->
+<!--                <div class="row">-->
+<!--                    &lt;!&ndash; Contact Form &ndash;&gt;-->
+<!--                    <div class="contact_from_area mb-100 clearfix wow fadeInUp" data-wow-delay="300ms">-->
+<!--                        <div class="contact_form">-->
+<!--                            <form method="post" name="submit-to-google-sheet" id="main_contact_form">-->
+<!--                                {% csrf_token %}-->
+<!--                                <div class="contact_input_area">-->
+<!--                                    <div id="success_fail_info"></div>-->
+<!--                                    <div class="row">-->
+<!--                                        &lt;!&ndash; Form Group &ndash;&gt;-->
+<!--                                        <div class="col-12 col-lg-6">-->
+<!--                                            <div class="form-group">-->
+<!--                                                <label style="color: white">-->
+<!--                                                    Nominee's Name:     *-->
+<!--                                                </label>-->
+<!--                                                <input type="text" class="form-control mb-30" name="Nominee First Name" id="name1" placeholder="First Name" required>-->
+<!--                                            </div>-->
+<!--                                        </div>-->
+<!--                                        &lt;!&ndash; Form Group &ndash;&gt;-->
+<!--                                        <div class="col-12 col-lg-6">-->
+<!--                                            <div class="form-group">-->
+<!--                                                <label style="color: #21235c">-->
+<!--                                                    Nominee's Name:     *-->
+<!--                                                </label>-->
+<!--                                                <input type="text" class="form-control mb-30" name="Nominee Last Name" id="name2" placeholder="Last Name" required>-->
+<!--                                            </div>-->
+<!--                                        </div>-->
+<!--                                        &lt;!&ndash; Form Group &ndash;&gt;-->
+<!--                                        <div class="col-12 col-lg-6">-->
+<!--                                            <div class="form-group">-->
+<!--                                                <label style="color: white">-->
+<!--                                                    Your Name:  *-->
+<!--                                                </label>-->
+<!--                                                <input type="text" class="form-control mb-30" name="Nominator First Name" id="name3" placeholder="First Name" required>-->
+<!--                                            </div>-->
+<!--                                        </div>-->
+<!--                                        &lt;!&ndash; Form Group &ndash;&gt;-->
+<!--                                        <div class="col-12 col-lg-6">-->
+<!--                                            <div class="form-group">-->
+<!--                                                <label style="color: #21235c">-->
+<!--                                                    Nominee's Name:     *-->
+<!--                                                </label>-->
+<!--                                                <input type="text" class="form-control mb-30" name="Nominator Last Name" id="name4" placeholder="Last Name" required>-->
+<!--                                            </div>-->
+<!--                                        </div>-->
+<!--                                        &lt;!&ndash; Form Group &ndash;&gt;-->
+<!--                                        <div class="col-12 col-lg-6">-->
+<!--                                            <div class="form-group">-->
+<!--                                                <label style="color: white">-->
+<!--                                                    Your Email address:     *-->
+<!--                                                </label>-->
+<!--                                                <input type="email" class="form-control mb-30" name="email" id="email" placeholder="E-mail" required>-->
+<!--                                            </div>-->
+<!--                                        </div>-->
+<!--                                        &lt;!&ndash; Form Group &ndash;&gt;-->
+<!--                                        <div class="col-12 col-lg-6">-->
+<!--                                            <div class="form-group">-->
+<!--                                                <label style="color: white">-->
+<!--                                                    Your Contact Number:    *-->
+<!--                                                </label>-->
+<!--                                                <input type="number" class="form-control mb-30" name="contact" id="contact" placeholder="Your Number" required>-->
+<!--                                            </div>-->
+<!--                                        </div>-->
+<!--                                        &lt;!&ndash; Form Group &ndash;&gt;-->
+<!--                                        <div class="col-12">-->
+<!--                                            <div class="form-group">-->
+<!--                                                <label style="color: white">-->
+<!--                                                    Tell us briefly about the nominee. What’s their occupation? Any honors or distinctions? Their recent work? Why are you recommending them? *-->
+<!--                                                </label>-->
+<!--                                                <textarea class="form-control mb-30" name="About Nominee" id="message1" cols="30" rows="6" placeholder="Your Message" required></textarea>-->
+<!--                                            </div>-->
+<!--                                        </div>-->
+<!--                                        &lt;!&ndash; Form Group &ndash;&gt;-->
+<!--                                        <div class="col-12">-->
+<!--                                            <div class="form-group">-->
+<!--                                                <label style="color: white">-->
+<!--                                                    What might their TEDxIITGuwahati talk be about? Focus on the idea - this is the most important section.     *-->
+<!--                                                </label>-->
+<!--                                                <textarea class="form-control mb-30" name="Talk Idea" id="message2" cols="30" rows="6" placeholder="Your Message" required></textarea>-->
+<!--                                            </div>-->
+<!--                                        </div>-->
+<!--                                        &lt;!&ndash; Form Group &ndash;&gt;-->
+<!--                                        <div class="col-12">-->
+<!--                                            <div class="form-group">-->
+<!--                                                <label style="color: white">-->
+<!--                                                    Please provide links to any social media handles/articles/web pages about the nominee:  *-->
+<!--                                                </label>-->
+<!--                                                <textarea class="form-control mb-30" name="Links" id="message3" cols="30" rows="6" placeholder="Your Message" required></textarea>-->
+<!--                                            </div>-->
+<!--                                        </div>-->
+<!--                                        &lt;!&ndash; Form Group &ndash;&gt;-->
+<!--                                        <div class="col-12">-->
+<!--                                            <div class="form-group">-->
+<!--                                                <label style="color: white">-->
+<!--                                                    Do you know this person personally? - It’s okay if you do not. If yes, please describe: *-->
+<!--                                                </label>-->
+<!--                                                <textarea class="form-control mb-30" name="Know Personally" id="message4" cols="30" rows="6" placeholder="Your Message" required></textarea>-->
+<!--                                            </div>-->
+<!--                                        </div>-->
+<!--                                        &lt;!&ndash; Form Group &ndash;&gt;-->
+<!--                                        <div class="col-12">-->
+<!--                                            <div class="form-group">-->
+<!--                                                <label style="color: white">-->
+<!--                                                     Has this person spoken publicly before? If so, where? Please provide video links if possible. *-->
+<!--                                                </label>-->
+<!--                                                <textarea class="form-control mb-30" name="Spoken Before" id="message5" cols="30" rows="6" placeholder="Your Message" required></textarea>-->
+<!--                                            </div>-->
+<!--                                        </div>-->
+<!--                                        &lt;!&ndash; Button &ndash;&gt;-->
+<!--                                        <div class="col-12">-->
+<!--                                                <button type="submit" id="submit-form" class="btn confer-btn" >Send Message <i class="zmdi zmdi-long-arrow-right"></i></button>-->
+<!--                                        </div>-->
 
-                                    </div>
-                                </div>
-                            </form>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+<!--                                    </div>-->
+<!--                                </div>-->
+<!--                            </form>-->
+<!--                        </div>-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--            </div>-->
+<!--        </div>-->
+<!--    </section>-->
 
 <!-- Footer Area Start -->
     <footer class="footer-area bg-img bg-overlay-2 section-padding-100-0">

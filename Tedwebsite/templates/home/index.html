@@ -59,7 +59,7 @@
                                 <li><a href="#">More</a>
                                     <ul class="dropdown">
                                         <li><a href="nominate_speaker.html">Nominate Speaker</a></li>
-                                        <li><a href="nominate_yourself.html">Speak Yourself</a></li>
+                                        <li><a href="nominate_yourself.html">Nominate Myself</a></li>
 <!--                                        <li><a href="about_us.html">About Us</a></li>-->
 <!--                                        <li><a href="">- Home</a></li>-->
 <!--                                        <li><a href="about_us.html">- About Us</a></li>-->
@@ -188,15 +188,19 @@
                 </div>
 
                 <!-- About Thumb -->
-                <!--<div class="col-12 col-md-6">-->
-                    <!--<div class="about-thumb mb-80 wow fadeInUp" data-wow-delay="300ms">-->
-                        <!--<img src='{% static "images/about_bg.jpg" %}' alt="">-->
-                    <!--</div>-->
-                <!--</div>-->
-                <!-- youtube embed-->
-                   <div class="iframe-container">
-                    <iframe width="500" height="300" src="https://www.youtube.com/embed/othM2dwi2bE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <div class="col-12 col-md-6">
+                    <div class="about-thumb mb-80 wow fadeInUp" data-wow-delay="300ms">
+<!--                        <img src='{% static "images/about_bg.jpg" %}' alt="">-->
+                        <iframe width="660" height="415" src="https://www.youtube.com/embed/N-l1xtCMnpw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
                 </div>
+                <!-- youtube embed-->
+<!--                <div class="col-12 col=md-6">-->
+<!--                    <div class="iframe-container">-->
+<!--                        <iframe width="500" height="300" src="https://www.youtube.com/embed/othM2dwi2bE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>-->
+<!--                    </div>-->
+<!--                </div>-->
+
             </div>
             </div>
         </div>
@@ -985,7 +989,7 @@
                         <!-- Single Contact Info -->
                         <div class="single-contact-info wow fadeInUp" data-wow-delay="300ms">
                             <p>Email:</p>
-                            <h6>tedxtalk.iitg@gmail.com</h6>
+                            <h6>iitg.tedx@gmail.com</h6>
                         </div>
                         <!-- Single Contact Info -->
 
@@ -1003,13 +1007,13 @@
                                         <!-- Form Group -->
                                         <div class="col-12 col-lg-6">
                                             <div class="form-group">
-                                                <input type="text" class="form-control mb-30" name="name" id="name" placeholder="Your Name">
+                                                <input type="text" class="form-control mb-30" name="fname" id="name" placeholder="Your Name">
                                             </div>
                                         </div>
                                         <!-- Form Group -->
                                         <div class="col-12 col-lg-6">
                                             <div class="form-group">
-                                                <input type="text" class="form-control mb-30" name="name" id="name2" placeholder="Last Name">
+                                                <input type="text" class="form-control mb-30" name="lname" id="name2" placeholder="Last Name">
                                             </div>
                                         </div>
                                         <!-- Form Group -->
@@ -1021,7 +1025,7 @@
                                         <!-- Form Group -->
                                         <div class="col-12 col-lg-6">
                                             <div class="form-group">
-                                                <input type="text" class="form-control mb-30" name="subject" id="subject" placeholder="Your Number">
+                                                <input type="text" class="form-control mb-30" name="contact" id="subject" placeholder="Your Number">
                                             </div>
                                         </div>
                                         <!-- Form Group -->
@@ -1067,17 +1071,18 @@
                         </div>
                     </div>
 
-                    <!-- Single Footer Widget Area -->
-                    <div class="col-12 col-sm-6 col-lg-3">
+                    <!-- Single Footer Widget Area  col-lg-3 -->
+                    <div class="col-12 col-sm-6">
                         <div class="single-footer-widget mb-60">
                             <!-- Widget Title -->
+                            <br />
                             <h5 class="widget-title">Contact</h5>
 
                             <!-- Contact Area -->
                             <div class="footer-contact-info">
                                 <p><i class="zmdi zmdi-map"></i> IIT Guwahati</p>
-                                <p><i class="zmdi zmdi-phone"></i> +91 908 506 9666(HARSHITH RAVIKUMAR)</p>
-                                <p><i class="zmdi zmdi-email"></i> tedxtalk.iitg@gmail.com</p>
+                                <p><i class="zmdi zmdi-phone"></i> +91 908 506 9666 (HARSHITH RAVIKUMAR)</p>
+                                <p><i class="zmdi zmdi-email"></i> iitg.tedx@gmail.com</p>
 
                             </div>
                         </div>
@@ -1147,38 +1152,7 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
     <!-- Active -->
     <script src='{% static "js/default-assets/active.js" %}'></script>
     <!-- Countdown Timer -->
-<!--    <script>-->
-<!--    // Set the date we're counting down to-->
-<!--    var countDownDate = new Date("Feb 5, 2021 12:00:00").getTime();-->
 
-<!--    // Update the count down every 1 second-->
-<!--    var x = setInterval(function() {-->
-
-<!--      // Get today's date and time-->
-<!--      var now = new Date().getTime();-->
-
-<!--      // Find the distance between now and the count down date-->
-<!--      var distance = countDownDate - now;-->
-
-<!--      // Time calculations for days, hours, minutes and seconds-->
-<!--      var days = Math.floor(distance / (1000 * 60 * 60 * 24));-->
-<!--      var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));-->
-<!--      var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));-->
-<!--      var seconds = Math.floor((distance % (1000 * 60)) / 1000);-->
-
-<!--      // Display the result in the element with id="demo"-->
-<!--      document.getElementById("demo").innerHTML = days + "d " + hours + "h "-->
-<!--      + minutes + "m " + seconds + "s ";-->
-
-<!--      // If the count down is finished, write some text-->
-<!--      if (distance < 0) {-->
-<!--        clearInterval(x);-->
-<!--        document.getElementById("clock").innerHTML = "EXPIRED";-->
-<!--      }-->
-<!--    }, 1000);-->
-<!--    </script>-->
 
 </body>
-
-
-    </html>
+</html>
