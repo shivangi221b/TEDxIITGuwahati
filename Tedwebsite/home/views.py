@@ -27,4 +27,4 @@ def index(request):
     print(minutes)
     print(seconds)
     context = {'days': days, 'hours': hours, 'minutes': minutes, 'seconds': seconds, }
-    return render(request, 'home/index2.html', context)
+    return render(request, 'home/index.html', context)
