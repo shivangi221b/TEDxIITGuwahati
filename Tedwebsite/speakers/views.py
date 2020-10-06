@@ -16,3 +16,9 @@ def addSpeaker(request):
             form.save()
     form = SpeakerModelForm()
     return render(request, 'speakers/form.html', {'form': form})
+
+
+def nominate_yourself(request):
+    return render(request, 'speakers/form2.html')
+
+
