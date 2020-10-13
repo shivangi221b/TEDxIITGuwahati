@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+{% load static %}
+
+<html lang="en">
+<!--<h1>{{ static }}</h1>-->
+<!--<img src='{% static "images/TEDxIITGuwahati1.png" %}' alt="LOGO">-->
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Title -->
+    <title>Seema Biswas</title>
+
+    <!-- Favicon -->
+    <link rel="icon" href='{% static "img/core-img/favicon.png" %}'/>
+
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href='{% static "style.css" %}'/>
+</head>
+
+<body>
+    <!-- Preloader -->
+    <div id="preloader">
+        <div class="loader"></div>
+    </div>
+    <!-- /Preloader -->
+
+    <!-- Header Area Start -->
+    <header class="header-area">
+        <div class="classy-nav-container breakpoint-off">
+            <div class="container">
+                <!-- Classy Menu -->
+                <nav class="classy-navbar justify-content-between" id="conferNav">
+
+                    <!-- Logo -->
+                   <a class="nav-brand" href=""><img src='{% static "images/ted_white.png" %}' alt="" width="350"/></a>
+
+                    <!-- Navbar Toggler -->
+                    <div class="classy-navbar-toggler">
+                        <span class="navbarToggler"><span></span><span></span><span></span></span>
+                    </div>
+
+                    <!-- Menu -->
+                    <div class="classy-menu">
+                        <!-- Menu Close Button -->
+                        <div class="classycloseIcon">
+                            <div class="cross-wrap"><span class="top"></span><span class="bottom"></span></div>
+                        </div>
+                        <!-- Nav Start -->
+                        <div class="classynav">
+                            <ul id="nav">
+                                <li><a href="/">Home</a></li>
+                                <li><a href="/speakers.html">Speakers</a></li>
+                                <li><a href="/blog.html">Blog</a></li>
+                                <li><a href="/#contact_area">Contact</a></li>
+                                <li><a href="/about_us.html">About Us</a></li>
+                                <li><a href="#">More</a>
+                                    <ul class="dropdown">
+                                        <li><a href="/nominate_speaker.html">Nominate Speaker</a></li>
+                                        <li><a href="/nominate_myself.html">Nominate Speaker</a></li>
+<!--                                        <li><a href="nominate_yourself.html">Nominate Myself</a></li>-->
+                                    </ul>
+                                </li>
+                            </ul>
+
+                            <!-- Get Tickets Button -->
+<!--                            <a href="#" class="btn confer-btn mt-3 mt-lg-0 ml-3 ml-lg-5">Get Tickets <i class="zmdi zmdi-long-arrow-right"></i></a>-->
+                        </div>
+                        <!-- Nav End -->
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <!-- Header Area End -->
+
+    <!-- Breadcrumb Area Start -->
+    <section class="breadcrumb-area bg-img bg-gradient-overlay jarallax" style="background-image: url(img/bg-img/37.jpg);">
+        <div class="container h-100">
+            <div class="row h-100 align-items-center">
+                <div class="col-12">
+                    <div class="breadcrumb-content">
+                        <h1 class="page-title">Seema Biswas</h1>
+                        <nav aria-label="breadcrumb">
+                            <ol class="breadcrumb">
+                                <h6>
+                                    Seema Biswas is an actress and theatre artist hailing from Assam. After completing a degree in Political Science from the Nalbari College she pursued drama at the NSD. Biswas went on to win the National Film award for the Best Actress for the film ‘Bandit Queen’, the 2000 Sangeet Natak Academy Award and the 2006 Best Actress Genie Award for ‘Water’.
+                                </h6>
+                            </ol>
+                        </nav>
+                        <br />
+
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Breadcrumb Area End -->
+
+    <!-- Form Area Start  -->
+<!--    <section class="our-speaker-area section-padding-100">-->
+<!--&lt;!&ndash;&ndash;&gt;-->
+<!--        <div class="container">-->
+<!--            <div class="row justify-content-between">-->
+<!--                {% csrf_token %}-->
+<!--&lt;!&ndash;                {% if form.errors %}&ndash;&gt;-->
+<!--&lt;!&ndash;                    {% for field in form %}&ndash;&gt;-->
+<!--&lt;!&ndash;                        {% for error in field.errors %}&ndash;&gt;-->
+<!--&lt;!&ndash;                            <div class="alert alert-danger">&ndash;&gt;-->
+<!--&lt;!&ndash;                                <strong>{{ error|escape }}</strong>&ndash;&gt;-->
+<!--&lt;!&ndash;                            </div>&ndash;&gt;-->
+<!--&lt;!&ndash;                        {% endfor %}&ndash;&gt;-->
+<!--&lt;!&ndash;                    {% endfor %}&ndash;&gt;-->
+<!--&lt;!&ndash;                    {% for error in form.non_field_errors %}&ndash;&gt;-->
+<!--&lt;!&ndash;                        <div class="alert alert-danger">&ndash;&gt;-->
+<!--&lt;!&ndash;                            <strong>{{ error|escape }}</strong>&ndash;&gt;-->
+<!--&lt;!&ndash;                        </div>&ndash;&gt;-->
+<!--&lt;!&ndash;                    {% endfor %}&ndash;&gt;-->
+<!--&lt;!&ndash;                {% endif %}&ndash;&gt;-->
+<!--&lt;!&ndash;                <form method="post">&ndash;&gt;-->
+<!--&lt;!&ndash;                    <div id="div_id_nominee_name" class="control-group">&ndash;&gt;-->
+<!--&lt;!&ndash;                        <label for="id_nominee_name" class="control-label requiredField">&ndash;&gt;-->
+<!--&lt;!&ndash;                            Nominee's Name:&ndash;&gt;-->
+<!--&lt;!&ndash;                            <span class="asteriskField">*</span>&ndash;&gt;-->
+<!--&lt;!&ndash;                            ::after&ndash;&gt;-->
+<!--&lt;!&ndash;                        </label>&ndash;&gt;-->
+<!--&lt;!&ndash;                        <div class="controls">&ndash;&gt;-->
+<!--&lt;!&ndash;                            <input type="text" name="nominee_name" maxlength="200" class="textinput textInput"&ndash;&gt;-->
+<!--&lt;!&ndash;                            required id="id_nominee_name" >&ndash;&gt;-->
+<!--&lt;!&ndash;                        </div>&ndash;&gt;-->
+<!--&lt;!&ndash;                    </div>&ndash;&gt;-->
+<!--&lt;!&ndash;                </form>&ndash;&gt;-->
+<!--            </div>-->
+<!--        </div>-->
+<!--    </section>-->
+
+<!--    <section class="contact-our-area section-padding-100-0">-->
+<!--        <div class="container">-->
+<!--            <div class="row justify-content-between">-->
+<!--                <div class="row">-->
+<!--                    &lt;!&ndash; Contact Form &ndash;&gt;-->
+<!--                    <div class="contact_from_area mb-100 clearfix wow fadeInUp" data-wow-delay="300ms">-->
+<!--                        <div class="contact_form">-->
+<!--                            <form method="post" name="submit-to-google-sheet" id="test-form">-->
+<!--                                {% csrf_token %}-->
+<!--                                <div class="contact_input_area">-->
+<!--                                    <div id="success_fail_info"></div>-->
+<!--                                    <div class="row">-->
+<!--                                        &lt;!&ndash; Form Group &ndash;&gt;-->
+<!--                                        <div class="col-12 col-lg-6">-->
+<!--                                            <div class="form-group">-->
+<!--                                                <label style="color: white">-->
+<!--                                                    Your Name:     *-->
+<!--                                                </label>-->
+<!--                                                <input type="text" class="form-control mb-30" name="fname" id="fname1" placeholder="First Name" required>-->
+<!--                                            </div>-->
+<!--                                        </div>-->
+<!--                                        &lt;!&ndash; Form Group &ndash;&gt;-->
+<!--                                        <div class="col-12 col-lg-6">-->
+<!--                                            <div class="form-group">-->
+<!--                                                <label style="color: #21235c">-->
+<!--                                                    Your Name:     *-->
+<!--                                                </label>-->
+<!--                                                <input type="text" class="form-control mb-30" name="lname" id="lname2" placeholder="Last Name" required>-->
+<!--                                            </div>-->
+<!--                                        </div>-->
+<!--                                        &lt;!&ndash; Form Group &ndash;&gt;-->
+<!--                                        <div class="col-12 col-lg-6">-->
+<!--                                            <div class="form-group">-->
+<!--                                                <label style="color: white">-->
+<!--                                                    Email address:     *-->
+<!--                                                </label>-->
+<!--                                                <input type="email" class="form-control mb-30" name="email_id" id="emailid" placeholder="E-mail" required>-->
+<!--                                            </div>-->
+<!--                                        </div>-->
+<!--                                        &lt;!&ndash; Form Group &ndash;&gt;-->
+<!--                                        <div class="col-12 col-lg-6">-->
+<!--                                            <div class="form-group">-->
+<!--                                                <label style="color: white">-->
+<!--                                                    Contact Number:    *-->
+<!--                                                </label>-->
+<!--                                                <input type="number" class="form-control mb-30" name="contact_no" id="contactno" placeholder="Your Number" required>-->
+<!--                                            </div>-->
+<!--                                        </div>-->
+<!--                                        &lt;!&ndash; Form Group &ndash;&gt;-->
+<!--                                        <div class="col-12 col-lg-6">-->
+<!--                                            <div class="form-group">-->
+<!--                                                <label style="color: white">-->
+<!--                                                    Age:    *-->
+<!--                                                </label>-->
+<!--                                                <input type="number" class="form-control mb-30" name="age" id="age" placeholder="Your age" required>-->
+<!--                                            </div>-->
+<!--                                        </div>-->
+<!--                                        &lt;!&ndash; Form Group &ndash;&gt;-->
+<!--                                        <div class="col-12 col-lg-6">-->
+<!--                                            <div class="form-group">-->
+<!--                                                <label style="color: white">-->
+<!--                                                    City:    *-->
+<!--                                                </label>-->
+<!--                                                <input type="text" class="form-control mb-30" name="city" id="city" placeholder="Your City" required>-->
+<!--                                            </div>-->
+<!--                                        </div>-->
+<!--                                        <div class="col-12">-->
+<!--                                            <div class="form-group">-->
+<!--                                                <label style="color: white">-->
+<!--                                                    Tell us about yourself. (Occupation/Any honors or distinctions/Recent work, etc):    *-->
+<!--                                                </label>-->
+<!--                                                <textarea class="form-control mb-30" name="about" id="about" cols="30" rows="6" placeholder="Your message" required></textarea>-->
+<!--                                            </div>-->
+<!--                                        </div>-->
+<!--                                        &lt;!&ndash; Form Group &ndash;&gt;-->
+<!--                                        <div class="col-12">-->
+<!--                                            <div class="form-group">-->
+<!--                                                <label style="color: white">-->
+<!--                                                    Briefly describe your idea and your reason for choosing the same. *-->
+<!--                                                </label>-->
+<!--                                                <textarea class="form-control mb-30" name="idea" id="idea" cols="30" rows="6" placeholder="Your Message" required></textarea>-->
+<!--                                            </div>-->
+<!--                                        </div>-->
+<!--                                        &lt;!&ndash; Form Group &ndash;&gt;-->
+<!--                                        <div class="col-12">-->
+<!--                                            <div class="form-group">-->
+<!--                                                <label style="color: white">-->
+<!--                                                    In one sentence, what is the key takeaway that you want the audience to know/ feel after listening to your talk?     *-->
+<!--                                                </label>-->
+<!--                                                <textarea class="form-control mb-30" name="takeaway" id="takeaway" cols="30" rows="6" placeholder="Your Message" required></textarea>-->
+<!--                                            </div>-->
+<!--                                        </div>-->
+<!--                                        &lt;!&ndash; Form Group &ndash;&gt;-->
+<!--                                        <div class="col-12">-->
+<!--                                            <div class="form-group">-->
+<!--                                                <label style="color: white">-->
+<!--                                                    Why do you want to be a TEDxIITGuwahati speaker?  *-->
+<!--                                                </label>-->
+<!--                                                <textarea class="form-control mb-30" name="why" id="why" cols="30" rows="6" placeholder="Your Message" required></textarea>-->
+<!--                                            </div>-->
+<!--                                        </div>-->
+<!--                                        &lt;!&ndash; Form Group &ndash;&gt;-->
+<!--                                        <div class="col-12">-->
+<!--                                            <div class="form-group">-->
+<!--                                                <label style="color: white">-->
+<!--                                                    Have you been a speaker before? Please share video links if possible. *-->
+<!--                                                </label>-->
+<!--                                                <textarea class="form-control mb-30" name="SpokenBefore" id="message4" cols="30" rows="6" placeholder="Your Message" required></textarea>-->
+<!--                                            </div>-->
+<!--                                        </div>-->
+<!--                                        &lt;!&ndash; Form Group &ndash;&gt;-->
+<!--                                        <div class="col-12">-->
+<!--                                            <div class="form-group">-->
+<!--                                                <label style="color: white">-->
+<!--                                                     Would you like to share some of your past talks/writings or anything that expresses you? If yes, please do share. *-->
+<!--                                                </label>-->
+<!--                                                <textarea class="form-control mb-30" name="PastTalk" id="message5" cols="30" rows="6" placeholder="Your Message" required></textarea>-->
+<!--                                            </div>-->
+<!--                                        </div>-->
+<!--                                        &lt;!&ndash; Button &ndash;&gt;-->
+<!--                                        <div class="col-12">-->
+<!--                                                <button type="submit" id="submit-form" class="btn confer-btn" >Send Message <i class="zmdi zmdi-long-arrow-right"></i></button>-->
+<!--                                        </div>-->
+
+<!--                                    </div>-->
+<!--                                </div>-->
+<!--                            </form>-->
+<!--                        </div>-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--            </div>-->
+<!--        </div>-->
+<!--    </section>-->
+
+<!-- Footer Area Start -->
+<footer class="footer-area bg-img bg-overlay-2 section-padding-100-0">
+    <!-- Main Footer Area -->
+    <div class="main-footer-area">
+        <div class="container">
+            <div class="row">
+                <!-- Single Footer Widget Area -->
+                <div class="col-12 col-sm-6 col-lg-3">
+                    <div class="single-footer-widget mb-60">
+                        <!-- Footer Logo -->
+                        <a href="#" class="footer-logo"><img src='{% static "images/ted_white.png" %}' alt=""></a>
+                        <p>Ideas Worth Spreading</p>
+
+                        <!-- Social Info -->
+                        <div class="social-info">
+                            <a href="https://www.facebook.com/TEDxIITGuwahati/"><i class="zmdi zmdi-facebook"></i></a>
+                            <a href="https://www.instagram.com/tedxiitguwahati/"><i class="zmdi zmdi-instagram"></i></a>
+                            <a href="https://twitter.com/tedxiitg"><i class="zmdi zmdi-twitter"></i></a>
+                            <a href="https://www.linkedin.com/company/tedx-iit-guwahati/"><i class="zmdi zmdi-linkedin"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Single Footer Widget Area -->
+                <div class="col-12 col-sm-6 col-lg-3">
+                    <div class="single-footer-widget mb-60">
+                        <!-- Widget Title -->
+                        <h5 class="widget-title">Contact</h5>
+
+                        <!-- Contact Area -->
+                        <div class="footer-contact-info">
+                            <p><i class="zmdi zmdi-map"></i> IIT Guwahati</p>
+                            <p><i class="zmdi zmdi-phone"></i> +91 908 506 9666(HARSHITH RAVIKUMAR)</p>
+                            <p><i class="zmdi zmdi-email"></i> tedxtalk.iitg@gmail.com</p>
+
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Single Footer Widget Area -->
+                <div class="col-12 col-sm-6 col-lg-3">
+                    <div class="single-footer-widget mb-60">
+                        <!-- Widget Title -->
+
+
+                        <!-- Footer Nav -->
+
+                    </div>
+                </div>
+
+                <!-- Single Footer Widget Area -->
+                <div class="col-12 col-sm-6 col-lg-3">
+                    <div class="single-footer-widget mb-60">
+                        <!-- Widget Title -->
+
+
+                        <!-- Footer Gallery -->
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Copywrite Area -->
+    <div class="container">
+        <div class="copywrite-content">
+            <div class="row">
+                <!-- Copywrite Text -->
+                <div class="col-12 col-md-6">
+                    <div class="copywrite-text">
+                        <p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
+                    </div>
+                </div>
+                <!-- Footer Menu -->
+                <div class="col-12 col-md-6">
+                    <div class="footer-menu">
+                        <ul class="nav">
+                            <li><a href="#"><i class="zmdi zmdi-circle"></i> Terms of Service</a></li>
+                            <li><a href="#"><i class="zmdi zmdi-circle"></i> Privacy Policy</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+<!-- Footer Area End -->
+
+<!-- **** All JS Files ***** -->
+<!-- jQuery 2.2.4 -->
+<script src='{% static "js/jquery.min.js" %}'></script>
+<!-- Popper -->
+<script src='{% static "js/popper.min.js" %}'></script>
+<!-- Bootstrap -->
+<script src='{% static "js/bootstrap.min.js" %}'></script>
+<!-- All Plugins -->
+<script src='{% static "js/confer.bundle.js" %}'></script>
+<!-- Active -->
+<script src='{% static "js/default-assets/active.js" %}'></script>
+
+</body>
+
+</html>
