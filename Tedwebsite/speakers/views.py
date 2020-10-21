@@ -63,7 +63,7 @@ def speakerDesc10(request):
 
 
 def speakerDesc11(request):
-    return rende(request, 'speakers/speaker14.html')
+    return render(request, 'speakers/speaker14.html')
 
 
 def speakerDesc12(request):
