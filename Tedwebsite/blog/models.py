@@ -10,11 +10,11 @@ class Post(models.Model):
     created_date = models.DateTimeField(default=timezone.now)
     published_date = models.DateTimeField(blank=True, null=True)
     link = models.TextField(default="https://medium.com/")
-    photo= models.TextField(default="img/bg-img/18.jpg")
+    photo = models.TextField(default="img/bg-img/18.jpg")
+
     def publish(self):
-         self.published_date = timezone.now()
-         self.save()
+        self.published_date = timezone.now()
+        self.save()
 
     def __str__(self):
         return self.title
-
