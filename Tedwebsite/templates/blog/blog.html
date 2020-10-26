@@ -120,15 +120,15 @@
                     <div class="single-blog-area style-2 wow fadeInUp" data-wow-delay="300ms">
                         <!-- Single blog Thumb -->
                         <div class="single-blog-thumb" >
-                            <img src="/static/images/blogs/blog1.jpeg" alt="">
+                            <img src="{{post.photo}}" alt="">
                         </div>
-                        <div class="single-blog-text text-center">
+                        <div class="single-blog-text text-center"> 
                             <a class="blog-title" href="{{post.link}}" target="_blank">{{ post.title }}</a>
                             <!-- Post Meta -->
                              <div class="post-meta">
                                 <a class="post-date" href="#"><i class="zmdi zmdi-alarm-check"></i> {{ post.published_date }}</a>
                                 <a class="post-author" href="#"><i class="zmdi zmdi-account"></i> {{ post.author }}</a>
-                             </div>
+                             </div> 
                             <p>{{ post.text|linebreaksbr }}</p>
                         </div>
                         <div class="blog-btn">
