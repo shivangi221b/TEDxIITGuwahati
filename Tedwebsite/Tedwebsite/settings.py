@@ -25,7 +25,7 @@ SECRET_KEY = '+l4hm@bcff)7v0xk17&bzjtyj*%_)p4jfsd&3!oirvhnaiubho'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['ec2-13-233-160-244.ap-south-1.compute.amazonaws.com']
 
 
 # Application definition
@@ -64,6 +64,7 @@ TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
         'DIRS': ['templates',],
+	'DIRS': [BASE_DIR + "/templates", ],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
@@ -142,3 +143,4 @@ STATICFILES_DIRS = (
 MEDIA_URL = '/media/'
 MEDIA_ROOT = os.path.join(os.path.dirname(BASE_DIR), "mediafiles")
 
+# STATIC_ROOT = os.path.join(os.path.dirname(BASE_DIR), "static/")
