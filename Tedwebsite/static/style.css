@@ -1489,7 +1489,7 @@ input:required {
     font-size: 12px;
     text-transform: uppercase;
     color: #ffffff;
-    background-color: #df42b1;
+    background-color: #ff0000;
     font-weight: 500;
     margin-bottom: 15px; }
     .breadcrumb-area.blog .breadcrumb-content .post-catagory:hover, .breadcrumb-area.blog .breadcrumb-content .post-catagory:focus {
@@ -1525,7 +1525,7 @@ input:required {
       .breadcrumb-area.blog .breadcrumb-content .post-meta a:last-child::after {
         display: none; }
       .breadcrumb-area.blog .breadcrumb-content .post-meta a:hover, .breadcrumb-area.blog .breadcrumb-content .post-meta a:focus {
-        color: #df42b1; }
+        color: #ff3333; }
         .breadcrumb-area.blog .breadcrumb-content .post-meta a:hover::after, .breadcrumb-area.blog .breadcrumb-content .post-meta a:focus::after {
           color: #ffffff; }
 
@@ -1579,11 +1579,11 @@ input:required {
       -o-transition-duration: 500ms;
       transition-duration: 500ms; }
       .single-blog-area .single-blog-text .blog-title:hover, .single-blog-area .single-blog-text .blog-title:focus {
-        color: #df42b1; }
+        color: #ff0000; }
     .single-blog-area .single-blog-text .post-meta {
       margin-bottom: 15px; }
       .single-blog-area .single-blog-text .post-meta a {
-        color: #9293bc;
+        color: #ff8a82;
         font-size: 14px;
         margin-right: 20px;
         -webkit-transition-duration: 500ms;
@@ -1594,7 +1594,7 @@ input:required {
         .single-blog-area .single-blog-text .post-meta a:last-child {
           margin-right: 0; }
         .single-blog-area .single-blog-text .post-meta a:hover, .single-blog-area .single-blog-text .post-meta a:focus {
-          color: #df42b1; }
+          color: #ff0000; }
         @media only screen and (min-width: 992px) and (max-width: 1199px) {
           .single-blog-area .single-blog-text .post-meta a {
             margin-right: 15px;
