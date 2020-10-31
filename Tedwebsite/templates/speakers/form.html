@@ -427,17 +427,17 @@
 <!--          );-->
 <!--        })-->
 <!--    </script>-->
-    <script>
-        const scriptURL = 'https://script.google.com/macros/s/AKfycbwwsZrsw-iV0xJVQXJ8KumYQD0tdjVfRRmkVwi7WQ1I1I_3s1Y/exec'
-        const form = document.forms['submit-to-google-sheet']
+<!--    <script>-->
+<!--        const scriptURL = 'https://script.google.com/macros/s/AKfycbwwsZrsw-iV0xJVQXJ8KumYQD0tdjVfRRmkVwi7WQ1I1I_3s1Y/exec'-->
+<!--        const form = document.forms['submit-to-google-sheet']-->
 
-        form.addEventListener('submit', e => {
-            e.preventDefault()
-            fetch(scriptURL, { method: 'POST', body: new FormData(form)})
-              .then(location.reload())
-              .catch(error => console.error('Error!', error.message))
-        })
-    </script>
+<!--        form.addEventListener('submit', e => {-->
+<!--            e.preventDefault()-->
+<!--            fetch(scriptURL, { method: 'POST', body: new FormData(form)})-->
+<!--              .then(location.reload())-->
+<!--              .catch(error => console.error('Error!', error.message))-->
+<!--        })-->
+<!--    </script>-->
 <!--response => console.log('Success!', response)-->
 
 

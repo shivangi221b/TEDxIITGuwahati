@@ -9,7 +9,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Title -->
-    <title>TEDxIITG | THEME LINE</title>
+    <title>TEDxIITGuwahati</title>
 
     <!-- Favicon -->
     <link rel="icon" href='{% static "./img/core-img/favicon.png" %}'>
@@ -977,8 +977,8 @@
             </div>
 
             <div class="row justify-content-between">
-                <div class="col-12 col-sm-3">
-                    <div class="contact-information mb-100">
+                <div class="col-12" >
+                    <div class="contact-information mb-100 text-center">
                         <!-- Single Contact Info -->
                         <div class="single-contact-info wow fadeInUp" data-wow-delay="300ms">
                             <p>Address:</p>
@@ -987,66 +987,65 @@
                         <!-- Single Contact Info -->
                         <div class="single-contact-info wow fadeInUp" data-wow-delay="300ms">
                             <p>Phone:</p>
-                            <h6>+91 9085069666 (Harshith Ravikumar)</h6>
+                            <h6>+91 90757 19391 (JAIKISHAN MANSUKHANI)</h6>
                         </div>
                         <!-- Single Contact Info -->
                         <div class="single-contact-info wow fadeInUp" data-wow-delay="300ms">
                             <p>Email:</p>
                             <h6>iitg.tedx@gmail.com</h6>
                         </div>
-                        <!-- Single Contact Info -->
-
                     </div>
                 </div>
 
-                <div class="col-12 col-sm-8">
-                    <!-- Contact Form -->
-                    <div class="contact_from_area mb-100 clearfix wow fadeInUp" data-wow-delay="300ms">
-                        <div class="contact_form">
-                            <form action="mail.php" method="post" id="main_contact_form">
-                                <div class="contact_input_area">
-                                    <div id="success_fail_info"></div>
-                                    <div class="row">
-                                        <!-- Form Group -->
-                                        <div class="col-12 col-lg-6">
-                                            <div class="form-group">
-                                                <input type="text" class="form-control mb-30" name="fname" id="name" placeholder="Your Name">
-                                            </div>
-                                        </div>
-                                        <!-- Form Group -->
-                                        <div class="col-12 col-lg-6">
-                                            <div class="form-group">
-                                                <input type="text" class="form-control mb-30" name="lname" id="name2" placeholder="Last Name">
-                                            </div>
-                                        </div>
-                                        <!-- Form Group -->
-                                        <div class="col-12 col-lg-6">
-                                            <div class="form-group">
-                                                <input type="email" class="form-control mb-30" name="email" id="email" placeholder="E-mail">
-                                            </div>
-                                        </div>
-                                        <!-- Form Group -->
-                                        <div class="col-12 col-lg-6">
-                                            <div class="form-group">
-                                                <input type="text" class="form-control mb-30" name="contact" id="subject" placeholder="Your Number">
-                                            </div>
-                                        </div>
-                                        <!-- Form Group -->
-                                        <div class="col-12">
-                                            <div class="form-group">
-                                                <textarea name="message" class="form-control mb-30" id="message" cols="30" rows="6" placeholder="Your Message *"></textarea>
-                                            </div>
-                                        </div>
-                                        <!-- Button -->
-                                        <div class="col-12">
-                                            <button type="submit" class="btn confer-btn">Send Message <i class="zmdi zmdi-long-arrow-right"></i></button>
-                                        </div>
-                                    </div>
-                                </div>
-                            </form>
-                        </div>
-                    </div>
-                </div>
+<!--                <div class="col-12 col-sm-8">-->
+<!--                    &lt;!&ndash; Contact Form action="mail.php" &ndash;&gt;-->
+<!--                    <div class="contact_from_area mb-100 clearfix wow fadeInUp" data-wow-delay="300ms">-->
+<!--                        <div class="contact_form">-->
+<!--                            <form method="post" name="submit-to-google-sheet" id="main_contact_form">-->
+<!--&lt;!&ndash;                                {% csrf_token %}&ndash;&gt;-->
+<!--                                <div class="contact_input_area">-->
+<!--                                    <div id="success_fail_info"></div>-->
+<!--                                    <div class="row">-->
+<!--                                        &lt;!&ndash; Form Group &ndash;&gt;-->
+<!--                                        <div class="col-12 col-lg-6">-->
+<!--                                            <div class="form-group">-->
+<!--                                                <input type="text" class="form-control mb-30" name="fname" id="name" placeholder="Your Name">-->
+<!--                                            </div>-->
+<!--                                        </div>-->
+<!--                                        &lt;!&ndash; Form Group &ndash;&gt;-->
+<!--                                        <div class="col-12 col-lg-6">-->
+<!--                                            <div class="form-group">-->
+<!--                                                <input type="text" class="form-control mb-30" name="lname" id="name2" placeholder="Last Name">-->
+<!--                                            </div>-->
+<!--                                        </div>-->
+<!--                                        &lt;!&ndash; Form Group &ndash;&gt;-->
+<!--                                        <div class="col-12 col-lg-6">-->
+<!--                                            <div class="form-group">-->
+<!--                                                <input type="email" class="form-control mb-30" name="email" id="email" placeholder="E-mail">-->
+<!--                                            </div>-->
+<!--                                        </div>-->
+<!--                                        &lt;!&ndash; Form Group &ndash;&gt;-->
+<!--                                        <div class="col-12 col-lg-6">-->
+<!--                                            <div class="form-group">-->
+<!--                                                <input type="text" class="form-control mb-30" name="contact" id="subject" placeholder="Your Number">-->
+<!--                                            </div>-->
+<!--                                        </div>-->
+<!--                                        &lt;!&ndash; Form Group &ndash;&gt;-->
+<!--                                        <div class="col-12">-->
+<!--                                            <div class="form-group">-->
+<!--                                                <textarea name="message" class="form-control mb-30" id="message" cols="30" rows="6" placeholder="Your Message *"></textarea>-->
+<!--                                            </div>-->
+<!--                                        </div>-->
+<!--                                        &lt;!&ndash; Button &ndash;&gt;-->
+<!--                                        <div class="col-12">-->
+<!--                                            <button type="submit" id="submit-form" class="btn confer-btn">Send Message <i class="zmdi zmdi-long-arrow-right"></i></button>-->
+<!--                                        </div>-->
+<!--                                    </div>-->
+<!--                                </div>-->
+<!--                            </form>-->
+<!--                        </div>-->
+<!--                    </div>-->
+<!--                </div>-->
             </div>
         </div>
     </section>
@@ -1075,43 +1074,43 @@
                     </div>
 
                     <!-- Single Footer Widget Area  col-lg-3 -->
-                    <div class="col-12 col-sm-6">
-                        <div class="single-footer-widget mb-60">
-                            <!-- Widget Title -->
-                            <br />
-                            <h5 class="widget-title">Contact</h5>
+<!--                    <div class="col-12 col-sm-6">-->
+<!--                        <div class="single-footer-widget mb-60">-->
+<!--                            &lt;!&ndash; Widget Title &ndash;&gt;-->
+<!--                            <br />-->
+<!--                            <h5 class="widget-title">Contact</h5>-->
 
-                            <!-- Contact Area -->
-                            <div class="footer-contact-info">
-                                <p><i class="zmdi zmdi-map"></i> IIT Guwahati</p>
-                                <p><i class="zmdi zmdi-phone"></i> +91 90757 19391 (JAIKISHAN MANSUKHANI)</p>
-                                <p><i class="zmdi zmdi-email"></i> iitg.tedx@gmail.com</p>
+<!--                            &lt;!&ndash; Contact Area &ndash;&gt;-->
+<!--                            <div class="footer-contact-info">-->
+<!--                                <p><i class="zmdi zmdi-map"></i> IIT Guwahati</p>-->
+<!--                                <p><i class="zmdi zmdi-phone"></i> +91 90757 19391 (JAIKISHAN MANSUKHANI)</p>-->
+<!--                                <p><i class="zmdi zmdi-email"></i> iitg.tedx@gmail.com</p>-->
 
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- Single Footer Widget Area -->
-                    <div class="col-12 col-sm-6 col-lg-3">
-                        <div class="single-footer-widget mb-60">
-                            <!-- Widget Title -->
-
-
-                            <!-- Footer Nav -->
-
-                        </div>
-                    </div>
+<!--                            </div>-->
+<!--                        </div>-->
+<!--                    </div>-->
 
                     <!-- Single Footer Widget Area -->
-                    <div class="col-12 col-sm-6 col-lg-3">
-                        <div class="single-footer-widget mb-60">
-                            <!-- Widget Title -->
+<!--                    <div class="col-12 col-sm-6 col-lg-3">-->
+<!--                        <div class="single-footer-widget mb-60">-->
+<!--                            &lt;!&ndash; Widget Title &ndash;&gt;-->
 
 
-                            <!-- Footer Gallery -->
+<!--                            &lt;!&ndash; Footer Nav &ndash;&gt;-->
 
-                        </div>
-                    </div>
+<!--                        </div>-->
+<!--                    </div>-->
+
+                    <!-- Single Footer Widget Area -->
+<!--                    <div class="col-12 col-sm-6 col-lg-3">-->
+<!--                        <div class="single-footer-widget mb-60">-->
+<!--                            &lt;!&ndash; Widget Title &ndash;&gt;-->
+
+
+<!--                            &lt;!&ndash; Footer Gallery &ndash;&gt;-->
+
+<!--                        </div>-->
+<!--                    </div>-->
                 </div>
             </div>
         </div>
@@ -1154,7 +1153,18 @@
     <script src='{% static "js/confer.bundle.js" %}'></script>
     <!-- Active -->
     <script src='{% static "js/default-assets/active.js" %}'></script>
-    <!-- Countdown Timer -->
+
+<!--     <script>-->
+<!--        const scriptURL = 'https://script.google.com/macros/s/AKfycbwwsZrsw-iV0xJVQXJ8KumYQD0tdjVfRRmkVwi7WQ1I1I_3s1Y/exec'-->
+<!--        const form = document.forms['submit-to-google-sheet']-->
+
+<!--        form.addEventListener('submit', e => {-->
+<!--            e.preventDefault()-->
+<!--            fetch(scriptURL, { method: 'POST', body: new FormData(form)})-->
+<!--              .then(location.reload())-->
+<!--              .catch(error => console.error('Error!', error.message))-->
+<!--        })-->
+<!--    </script>-->
 
 
 </body>
