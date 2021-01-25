@@ -22,7 +22,7 @@ Last Update: March 14, 2019
     09.0 Footer Area CSS
     10.0 About Area CSS
     11.0 Counter Area CSS
-    12.0 Speakar Area CSS
+    12.0 Speaker Area CSS
     13.0 Breadcrumb Area CSS
     14.0 Blog Area CSS
     15.0 Widget Area CSS
@@ -358,7 +358,7 @@ input:required {
   z-index: 9999999;
   top: 0;
   left: 0;
-  background: linear-gradient(217deg, #ff0000, #000000);
+  background: linear-gradient(217deg, #ff2b06, #000000);
   /*background: #df42b1;
   background-image: -webkit-linear-gradient(120deg, #505add 0%, #df42b1 100%);
   background-image: -ms-linear-gradient(120deg, #505add 0%, #df42b1 100%)*/;
@@ -404,6 +404,7 @@ input:required {
     -webkit-transform: rotate(360deg);
     -ms-transform: rotate(360deg);
     transform: rotate(360deg); } }
+
 /* :: 4.0 Heading Area CSS */
 .section-heading {
   position: relative;
@@ -434,7 +435,7 @@ input:required {
   z-index: 1;
   margin-bottom: 60px; }
   .section-heading-2 p {
-    color: #ff0000;
+    color: #ff2b06;
     letter-spacing: 1px;
     text-transform: uppercase;
     margin-bottom: 0;
@@ -458,7 +459,7 @@ input:required {
   z-index: 1;
   margin-bottom: 60px; }
   .section-heading-3 p {
-    color: #ff0000;
+    color: #ff2b06;
     letter-spacing: 1px;
     text-transform: uppercase;
     margin-bottom: 0;
@@ -486,7 +487,7 @@ input:required {
   width: 40px;
   height: 40px;
   bottom: 40px;
-  background-color: #ff3333;
+  background-color: #FF2B06;
   color: #ffffff;
   text-align: center;
   -webkit-transition-duration: 500ms;
@@ -539,8 +540,8 @@ input:required {
     top: -10%;
     left: -10%;
     content: '';
-    background: linear-gradient(217deg, #ff0000, #000000);
-    /*background: #ff0000;
+    background: #FF2B06;
+    /*background: #ff2b06;
     background-image: -webkit-linear-gradient(120deg, #505add 0%, #df42b1 100%);
     background-image: -ms-linear-gradient(120deg, #505add 0%, #df42b1 100%)*/;
     z-index: -2; }
@@ -722,7 +723,7 @@ input:required {
       font-weight: 500;
       padding: 0 20px; }
       .classy-nav-container .classy-navbar .classynav ul li a:hover, .classy-nav-container .classy-navbar .classynav ul li a:focus {
-        color: #ff0000; }
+        color: #ff2b06; }
       @media only screen and (min-width: 992px) and (max-width: 1199px) {
         .classy-nav-container .classy-navbar .classynav ul li a {
           font-size: 14px; } }
@@ -731,13 +732,13 @@ input:required {
           font-size: 14px;
           color: #111343; }
           .classy-nav-container .classy-navbar .classynav ul li a:hover, .classy-nav-container .classy-navbar .classynav ul li a:focus {
-            color: #ff0000; } }
+            color: #ff2b06; } }
       @media only screen and (max-width: 767px) {
         .classy-nav-container .classy-navbar .classynav ul li a {
           font-size: 14px;
           color: #ffffff; }
           .classy-nav-container .classy-navbar .classynav ul li a:hover, .classy-nav-container .classy-navbar .classynav ul li a:focus {
-            color: #ff0000; } }
+            color: #ff2b06; } }
     .classy-nav-container .classy-navbar .classynav ul li.cn-dropdown-item ul li a, .classy-nav-container .classy-navbar .classynav ul li.megamenu-item ul li a {
       font-size: 14px;
       text-transform: uppercase;
@@ -746,14 +747,14 @@ input:required {
       padding: 0 30px;
       color: #111343; }
       .classy-nav-container .classy-navbar .classynav ul li.cn-dropdown-item ul li a:focus, .classy-nav-container .classy-navbar .classynav ul li.cn-dropdown-item ul li a:hover, .classy-nav-container .classy-navbar .classynav ul li.megamenu-item ul li a:focus, .classy-nav-container .classy-navbar .classynav ul li.megamenu-item ul li a:hover {
-        color: #ff0000; }
+        color: #ff2b06; }
     .classy-nav-container .classy-navbar .classynav ul li.active a {
-      color: #ff0000; }
+      color: #ff2b06; }
 
 .classynav ul li.has-down > a::after,
 .classynav ul li.has-down.active > a::after,
 .classynav ul li.megamenu-item > a::after {
-  color: #ff0000; }
+  color: #ff2b06; }
 
 .breakpoint-off .classynav ul li .dropdown,
 .breakpoint-off .classynav ul li .megamenu {
@@ -907,7 +908,7 @@ input:required {
       position: relative;
       z-index: 1;
       font-weight: 700;
-      font-size: 90px;
+      font-size: 80px;
       text-transform: uppercase;
       display: block;
       margin-bottom: 10px;
@@ -960,12 +961,12 @@ input:required {
       font-style: italic;
       text-decoration: underline; }
       .single-welcome-slide .welcome-text .hero-mail-contact:hover, .single-welcome-slide .welcome-text .hero-mail-contact:focus {
-        color: #ff0000; }
+        color: #ff2b06; }
   .single-welcome-slide .welcome-text-two {
     position: relative;
     z-index: 1; }
     .single-welcome-slide .welcome-text-two h5 {
-      font-size: 40px;
+      font-size: 25px;
       color: #ffffff;
       text-transform: uppercase;
       letter-spacing: 0.5px;
@@ -1028,32 +1029,58 @@ input:required {
   .main-footer-area .single-footer-widget .widget-title {
     font-size: 20px;
     color: #ffffff;
-    margin-bottom: 20px; }
+    margin-top: 20px;
+    margin-bottom: 10px; }
   .main-footer-area .single-footer-widget p {
-    color: #ff3333;
+    color: #FF2B06;
     font-size: 14px; }
     .main-footer-area .single-footer-widget p i {
       margin-right: 5px; }
   .main-footer-area .single-footer-widget .footer-logo {
     display: block;
+    margin-top: 20px;
     margin-bottom: 20px; }
+
+  .about-content-text .social-info a {
+    height: 34px;
+    width: 34px;
+    border: 1px solid #ff2b06;
+    border-radius: 50%;
+    display: inline-block;
+    text-align: center;
+    line-height: 32px;
+    color: black;
+    font-size: 15px;
+    margin-top:25px;
+    margin-right: 12px;
+    -webkit-transition-duration: 500ms;
+    -o-transition-duration: 500ms;
+    transition-duration: 500ms;
+  }
+
+  .about-content-text .social-info a:hover, .about-content-text .social-info a:focus{
+    background-color: #FF2B06;
+    border-color: #FF2B06;
+  }
+
   .main-footer-area .single-footer-widget .social-info a {
     height: 34px;
     width: 34px;
-    border: 1px solid #ff3333;
+    border: 1px solid #ff2B06;
     border-radius: 50%;
     display: inline-block;
     text-align: center;
     line-height: 32px;
     color: #ffffff;
     font-size: 15px;
-    margin-right: 8px;
+    margin-top:25px;
+    margin-right: 12px;
     -webkit-transition-duration: 500ms;
     -o-transition-duration: 500ms;
     transition-duration: 500ms; }
     .main-footer-area .single-footer-widget .social-info a:hover, .main-footer-area .single-footer-widget .social-info a:focus {
-      background-color: #ff3333;
-      border-color: #ff3333; }
+      background-color: #ff2B06;
+      border-color: #ff2B06; }
   .main-footer-area .single-footer-widget .footer-contact-info {
     position: relative;
     z-index: 1; }
@@ -1118,7 +1145,7 @@ input:required {
     .copywrite-content {
       text-align: center; } }
   .copywrite-content .copywrite-text p {
-    color: #ff3333;
+    color: #FF2B06;
     font-size: 12px;
     margin-bottom: 0; }
     @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -1131,7 +1158,7 @@ input:required {
       color: #ffffff;
       font-weight: 400; }
       .copywrite-content .copywrite-text p a:hover, .copywrite-content .copywrite-text p a:focus {
-        color: #ff3333; }
+        color: red; }
   .copywrite-content .footer-menu {
     position: relative;
     z-index: 1; }
@@ -1172,9 +1199,9 @@ input:required {
 .about-us-countdown-area {
   position: relative;
   z-index: 1;
-  background-color: #0f0f0f; }
+  background-color:#ffffff; }
   .about-us-countdown-area .about-content-text h6 {
-    font-size: 14px;
+    font-size: 25px;
     font-weight: 500;
     color: #ffffff;
     text-transform: uppercase;
@@ -1185,7 +1212,7 @@ input:required {
     display: inline-block; }
   .about-us-countdown-area .about-content-text h3 {
     font-size: 40px;
-    color: #ff0000;
+    color: #ff2b06;
     text-transform: uppercase;
     letter-spacing: 1px;
     margin-bottom: 20px; }
@@ -1200,6 +1227,8 @@ input:required {
         font-size: 22px; } }
   .about-us-countdown-area .about-content-text p {
     color: #ffffff; }
+
+  
 
 /* :: About Single Page CSS */
 .single-we-offer-content {
@@ -1306,7 +1335,7 @@ input:required {
     .about-us-countdown-area .countdown-up-area .countdown-content-text h6 {
       font-size: 14px;
       text-transform: uppercase;
-      color: #ff0000;
+      color: #ff2b06;
       font-weight: 400;
       margin-bottom: 15px;
       letter-spacing: 1px; }
@@ -1332,14 +1361,14 @@ input:required {
       -webkit-box-pack: center;
       -ms-flex-pack: center;
       justify-content: center;
-      color: #ffffff; }
+      color: black; }
       .about-us-countdown-area .countdown-up-area .countdown-timer #clock div {
         font-size: 62px;
         font-weight: 600;
         padding: 20px 5px;
         width: 20%;
         margin: 0 15px;
-        border: 2px solid rgba(255, 255, 255, 0.15);
+        border: 2px solid orangered;
         text-align: center;
         line-height: 1; }
         @media only screen and (min-width: 992px) and (max-width: 1199px) {
@@ -1360,7 +1389,7 @@ input:required {
         .about-us-countdown-area .countdown-up-area .countdown-timer #clock div span {
           margin-top: 5px;
           font-size: 18px;
-          color: #ff0000;
+          color: #ff2b06;
           font-weight: 500;
           display: block; }
           @media only screen and (min-width: 992px) and (max-width: 1199px) {
@@ -1399,18 +1428,18 @@ input:required {
   position: relative;
   z-index: 1;
   overflow: hidden;
-  margin-bottom: 40px;
-  border-radius: 10px; }
+  margin-bottom: 30px;
+  border-radius: 30px; }
   .single-speaker-area .speaker-single-thumb {
     position: relative;
     z-index: 1;
-    border-radius: 10px; }
+    border-radius: 20px; }
     .single-speaker-area .speaker-single-thumb img {
       -webkit-transition-duration: 1500ms;
       -o-transition-duration: 1500ms;
       transition-duration: 1500ms;
-      border-radius: 10px;
-      width: 100%; }
+      border-radius: 50%;
+      width: 50%; }
   .single-speaker-area .social-info {
     position: absolute;
     top: -180px;
@@ -1442,7 +1471,7 @@ input:required {
       letter-spacing: 1px;
       margin-bottom: 10px; }
     .single-speaker-area .speaker-info p {
-      color: #ff0000;
+      color: #ff2b06;
       margin-bottom: 0;
       letter-spacing: 1px;
       line-height: 1; }
@@ -1485,7 +1514,7 @@ input:required {
         color: #ffffff;
         font-weight: 400; }
         .breadcrumb-content .breadcrumb .breadcrumb-item a:hover, .breadcrumb-content .breadcrumb .breadcrumb-item a:focus {
-          color: #ff0000; }
+          color: #ff2b06; }
     .breadcrumb-content .breadcrumb .breadcrumb-item + .breadcrumb-item::before {
       content: '\f105';
       color: #ffffff;
@@ -1499,7 +1528,7 @@ input:required {
     font-size: 12px;
     text-transform: uppercase;
     color: #ffffff;
-    background-color: #ff0000;
+    background-color: #ff2b06;
     font-weight: 500;
     margin-bottom: 15px; }
     .breadcrumb-area.blog .breadcrumb-content .post-catagory:hover, .breadcrumb-area.blog .breadcrumb-content .post-catagory:focus {
@@ -1589,7 +1618,7 @@ input:required {
       -o-transition-duration: 500ms;
       transition-duration: 500ms; }
       .single-blog-area .single-blog-text .blog-title:hover, .single-blog-area .single-blog-text .blog-title:focus {
-        color: #ff0000; }
+        color: #ff2b06; }
     .single-blog-area .single-blog-text .post-meta {
       margin-bottom: 15px; }
       .single-blog-area .single-blog-text .post-meta a {
@@ -1604,7 +1633,7 @@ input:required {
         .single-blog-area .single-blog-text .post-meta a:last-child {
           margin-right: 0; }
         .single-blog-area .single-blog-text .post-meta a:hover, .single-blog-area .single-blog-text .post-meta a:focus {
-          color: #ff0000; }
+          color: #ff2b06; }
         @media only screen and (min-width: 992px) and (max-width: 1199px) {
           .single-blog-area .single-blog-text .post-meta a {
             margin-right: 15px;
@@ -1638,7 +1667,7 @@ input:required {
     /*background-image: -webkit-linear-gradient(120deg, #505add 0%, #df42b1 100%);
     background-image: -ms-linear-gradient(120deg, #505add 0%, #df42b1 100%);
     background-color: #ff1717;*/
-    background: linear-gradient(217deg, #ff0000, #000000);
+    background: #FF2B06;
     text-align: center;
     border: 2px solid #ffffff;
     border-radius: 50%;
@@ -2621,7 +2650,7 @@ input:required {
   .contact-our-area .contact-information .single-contact-info {
     margin-bottom: 25px; }
     .contact-our-area .contact-information .single-contact-info p {
-      color: #ff0000;
+      color: #ff2b06;
       margin-bottom: 5px; }
     .contact-our-area .contact-information .single-contact-info h6 {
       font-size: 18px;
@@ -2688,9 +2717,9 @@ input:required {
 
 .contact_input_area .form-group .form-control {
   border-bottom: 1px solid #dbdcf1;
-  color: #ff0000; }
+  color: #ff2b06; }
   .contact_input_area .form-group .form-control:active, .contact_input_area .form-group .form-control:focus {
-    border-bottom-color: #ff0000; }
+    border-bottom-color: #ff2b06; }
 .contact_input_area .form-group textarea.form-control {
   height: 70px; }
 

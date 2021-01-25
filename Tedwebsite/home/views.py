@@ -2,7 +2,6 @@ from django.shortcuts import render
 from django.utils import timezone
 from datetime import datetime
 
-
 def index(request):
     now = timezone.now()
     date1 = datetime.now()
@@ -28,3 +27,6 @@ def index(request):
     print(seconds)
     context = {'days': days, 'hours': hours, 'minutes': minutes, 'seconds': seconds, }
     return render(request, 'home/index.html', context)
+
+
+

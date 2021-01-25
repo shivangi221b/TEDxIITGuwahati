@@ -23,7 +23,6 @@ from attendees import views as av
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', include('home.urls')),
-    path('contact.html', include('home.urls')),
     path('gallery.html', include('gallery.urls')),
     path('blog.html', include('blog.urls')),
     path('about_us.html', include('about_us.urls')),
@@ -31,6 +30,9 @@ urlpatterns = [
     path('nominate_speaker.html', sv.addSpeaker),
     path('add_attendee.html', av.addAttendee),
     path('nominate_yourself.html', sv.nominate_yourself),
+    path('unrestricted.html', sv.unrestricted),
+    path('contact.html', sv.contact),
+    
 ]
 
 if settings.DEBUG:
