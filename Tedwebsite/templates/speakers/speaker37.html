@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+{% load static %}
+
+<html lang="en">
+<!--<h1>{{ static }}</h1>-->
+<!--<img src='{% static "images/TEDxIITGuwahati1.png" %}' alt="LOGO">-->
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Title -->
+    <title>Rudy Wallang</title>
+
+    <!-- Favicon -->
+    <link rel="icon" href='{% static "img/core-img/favicon.png" %}'/>
+
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href='{% static "style.css" %}'/>
+</head>
+
+<body>
+    <!-- Preloader -->
+    <div id="preloader">
+        <div class="loader"></div>
+    </div>
+    <!-- /Preloader -->
+
+    <!-- Header Area Start -->
+    <header class="header-area">
+        <div class="classy-nav-container breakpoint-off">
+            <div class="container">
+                <!-- Classy Menu -->
+                <nav class="classy-navbar justify-content-between" id="conferNav">
+
+                    <!-- Logo -->
+                   <a class="nav-brand" href="/"><img src='{% static "images/ted_white.png" %}' alt="" width="350"/></a>
+
+                    <!-- Navbar Toggler -->
+                    <div class="classy-navbar-toggler">
+                        <span class="navbarToggler"><span></span><span></span><span></span></span>
+                    </div>
+
+                    <!-- Menu -->
+                    <div class="classy-menu">
+                        <!-- Menu Close Button -->
+                        <div class="classycloseIcon">
+                            <div class="cross-wrap"><span class="top"></span><span class="bottom"></span></div>
+                        </div>
+                        <!-- Nav Start -->
+                        <div class="classynav">
+                            <ul id="nav">
+                                <li><a href="/">Home</a></li>
+                                <li><a href="/speakers.html">Speakers</a></li>
+                                <li><a href="/blog.html">Blogs</a></li>
+
+                                <li><a href="/about_us.html">About Us</a></li>
+                                <li><a href="/unrestricted.html">Unrestricted</a></li>
+                                <li><a href="/contact.html">Contact</a></li>
+<!-- <li><a href="#">Nominate</a>
+                                    <ul class="dropdown">
+                                        <li><a href="/nominate_speaker.html">Nominate a Speaker</a></li>
+                                        <li><a href="/nominate_yourself.html">Nominate Yourself</a></li>
+                                        <li><a href="nominate_yourself.html">Nominate Myself</a></li>
+                                    </ul>
+                                </li>
+-->
+                            </ul>
+
+                            <!-- Get Tickets Button -->
+<!--                            <a href="#" class="btn confer-btn mt-3 mt-lg-0 ml-3 ml-lg-5">Get Tickets <i class="zmdi zmdi-long-arrow-right"></i></a>-->
+                        </div>
+                        <!-- Nav End -->
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <!-- Header Area End -->
+
+    <!-- Breadcrumb Area Start -->
+    <!-- <section class="our-speaker-area section-padding-100">
+        <div class="container">
+            <div class="row"> -->
+                <!-- Heading -->
+                <!-- <div class="col-12">
+                    <div class="section-heading-3 text-center wow fadeInUp" data-wow-delay="300ms">
+                        <p><font size="+6"> Uddhab Bharali </font></p>
+                        <br>
+                        <style>
+                            img {
+                              border-radius: 50%;
+                              margin-top: 20px;
+                              margin-bottom: 20px;
+                            }
+
+                            </style>
+                        <img src='{% static "images/speakers1/uddhab-bharali.jpeg" %}'  width="160" height="150"alt="" align="centre">
+                        <p style="color:#000000">
+                                    Dr. Uddhab Kumar Bharali is an Indian innovator, scientist and a senior technologist from Assam having over 140 innovations to his name. His research centre U K B Agrotech is the only centre in the country focusing on machine innovation. His innovations have earned him numerous accolades across the world such as NASA’s ‘Creators of The Future’ award.</h6>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> -->
+    <!-- Breadcrumb Area End -->
+
+    <div style="margin-left: 100px ; margin-right:100px; padding-bottom :200px;">
+        <div style="height:150px"></div>
+        <hr style="width: 8rem; height:8px; margin-left:0px; background-color:#FF2B06; border-radius: 1.5px;">
+        <h1><span style="color:#FF2B06;">Rudy Wallang</span></h1><br>
+            <img src='{% static "images/speakers3/Rudy.jpg" %}'  width="260" height="250"alt="" style="float:left; margin-right:30px;">
+            <p style="font-size:20px; align:justify;">
+                Rudy Wallang is a Blues vocalist, guitarist and songwriter, an active member of the blues rock band Soulmate based in Shillong. Strengthening the roots of Blues in India, his passion towards the genre has helped it give the recognition it deserves while breaking what have long constricted the boundaries of music. He has been felicitated with the title of the best guitar player in India at the 2009 Jack Daniels music awards.
+            </p>
+            <div class="about-content-text">
+                <div class="social-info">
+                    <a href="https://www.facebook.com/rudy.wallang1" target="_blank"><i class="zmdi zmdi-facebook"></i></a>
+                    <a href="https://www.instagram.com/rudy_wallang/?hl=en" target="_blank"><i class="zmdi zmdi-instagram"></i></a>
+                    <a href="https://twitter.com/ruwall5" target="_blank"><i class="zmdi zmdi-twitter"></i></a>
+                    <a href="https://www.linkedin.com/in/rudy-wallang-7b964636/"target="_blank"><i class="zmdi zmdi-linkedin"></i></a>
+                </div></div>
+        </div>
+    </div>
+
+    <!-- Form Area Start  -->
+<!--    <section class="our-speaker-area section-padding-100">-->
+<!--&lt;!&ndash;&ndash;&gt;-->
+<!--        <div class="container">-->
+<!--            <div class="row justify-content-between">-->
+<!--                {% csrf_token %}-->
+<!--&lt;!&ndash;                {% if form.errors %}&ndash;&gt;-->
+<!--&lt;!&ndash;                    {% for field in form %}&ndash;&gt;-->
+<!--&lt;!&ndash;                        {% for error in field.errors %}&ndash;&gt;-->
+<!--&lt;!&ndash;                            <div class="alert alert-danger">&ndash;&gt;-->
+<!--&lt;!&ndash;                                <strong>{{ error|escape }}</strong>&ndash;&gt;-->
+<!--&lt;!&ndash;                            </div>&ndash;&gt;-->
+<!--&lt;!&ndash;                        {% endfor %}&ndash;&gt;-->
+<!--&lt;!&ndash;                    {% endfor %}&ndash;&gt;-->
+<!--&lt;!&ndash;                    {% for error in form.non_field_errors %}&ndash;&gt;-->
+<!--&lt;!&ndash;                        <div class="alert alert-danger">&ndash;&gt;-->
+<!--&lt;!&ndash;                            <strong>{{ error|escape }}</strong>&ndash;&gt;-->
+<!--&lt;!&ndash;                        </div>&ndash;&gt;-->
+<!--&lt;!&ndash;                    {% endfor %}&ndash;&gt;-->
+<!--&lt;!&ndash;                {% endif %}&ndash;&gt;-->
+<!--&lt;!&ndash;                <form method="post">&ndash;&gt;-->
+<!--&lt;!&ndash;                    <div id="div_id_nominee_name" class="control-group">&ndash;&gt;-->
+<!--&lt;!&ndash;                        <label for="id_nominee_name" class="control-label requiredField">&ndash;&gt;-->
+<!--&lt;!&ndash;                            Nominee's Name:&ndash;&gt;-->
+<!--&lt;!&ndash;                            <span class="asteriskField">*</span>&ndash;&gt;-->
+<!--&lt;!&ndash;                            ::after&ndash;&gt;-->
+<!--&lt;!&ndash;                        </label>&ndash;&gt;-->
+<!--&lt;!&ndash;                        <div class="controls">&ndash;&gt;-->
+<!--&lt;!&ndash;                            <input type="text" name="nominee_name" maxlength="200" class="textinput textInput"&ndash;&gt;-->
+<!--&lt;!&ndash;                            required id="id_nominee_name" >&ndash;&gt;-->
+<!--&lt;!&ndash;                        </div>&ndash;&gt;-->
+<!--&lt;!&ndash;                    </div>&ndash;&gt;-->
+<!--&lt;!&ndash;                </form>&ndash;&gt;-->
+<!--            </div>-->
+<!--        </div>-->
+<!--    </section>-->
+
+<!--    <section class="contact-our-area section-padding-100-0">-->
+<!--        <div class="container">-->
+<!--            <div class="row justify-content-between">-->
+<!--                <div class="row">-->
+<!--                    &lt;!&ndash; Contact Form &ndash;&gt;-->
+<!--                    <div class="contact_from_area mb-100 clearfix wow fadeInUp" data-wow-delay="300ms">-->
+<!--                        <div class="contact_form">-->
+<!--                            <form method="post" name="submit-to-google-sheet" id="test-form">-->
+<!--                                {% csrf_token %}-->
+<!--                                <div class="contact_input_area">-->
+<!--                                    <div id="success_fail_info"></div>-->
+<!--                                    <div class="row">-->
+<!--                                        &lt;!&ndash; Form Group &ndash;&gt;-->
+<!--                                        <div class="col-12 col-lg-6">-->
+<!--                                            <div class="form-group">-->
+<!--                                                <label style="color: white">-->
+<!--                                                    Your Name:     *-->
+<!--                                                </label>-->
+<!--                                                <input type="text" class="form-control mb-30" name="fname" id="fname1" placeholder="First Name" required>-->
+<!--                                            </div>-->
+<!--                                        </div>-->
+<!--                                        &lt;!&ndash; Form Group &ndash;&gt;-->
+<!--                                        <div class="col-12 col-lg-6">-->
+<!--                                            <div class="form-group">-->
+<!--                                                <label style="color: #21235c">-->
+<!--                                                    Your Name:     *-->
+<!--                                                </label>-->
+<!--                                                <input type="text" class="form-control mb-30" name="lname" id="lname2" placeholder="Last Name" required>-->
+<!--                                            </div>-->
+<!--                                        </div>-->
+<!--                                        &lt;!&ndash; Form Group &ndash;&gt;-->
+<!--                                        <div class="col-12 col-lg-6">-->
+<!--                                            <div class="form-group">-->
+<!--                                                <label style="color: white">-->
+<!--                                                    Email address:     *-->
+<!--                                                </label>-->
+<!--                                                <input type="email" class="form-control mb-30" name="email_id" id="emailid" placeholder="E-mail" required>-->
+<!--                                            </div>-->
+<!--                                        </div>-->
+<!--                                        &lt;!&ndash; Form Group &ndash;&gt;-->
+<!--                                        <div class="col-12 col-lg-6">-->
+<!--                                            <div class="form-group">-->
+<!--                                                <label style="color: white">-->
+<!--                                                    Contact Number:    *-->
+<!--                                                </label>-->
+<!--                                                <input type="number" class="form-control mb-30" name="contact_no" id="contactno" placeholder="Your Number" required>-->
+<!--                                            </div>-->
+<!--                                        </div>-->
+<!--                                        &lt;!&ndash; Form Group &ndash;&gt;-->
+<!--                                        <div class="col-12 col-lg-6">-->
+<!--                                            <div class="form-group">-->
+<!--                                                <label style="color: white">-->
+<!--                                                    Age:    *-->
+<!--                                                </label>-->
+<!--                                                <input type="number" class="form-control mb-30" name="age" id="age" placeholder="Your age" required>-->
+<!--                                            </div>-->
+<!--                                        </div>-->
+<!--                                        &lt;!&ndash; Form Group &ndash;&gt;-->
+<!--                                        <div class="col-12 col-lg-6">-->
+<!--                                            <div class="form-group">-->
+<!--                                                <label style="color: white">-->
+<!--                                                    City:    *-->
+<!--                                                </label>-->
+<!--                                                <input type="text" class="form-control mb-30" name="city" id="city" placeholder="Your City" required>-->
+<!--                                            </div>-->
+<!--                                        </div>-->
+<!--                                        <div class="col-12">-->
+<!--                                            <div class="form-group">-->
+<!--                                                <label style="color: white">-->
+<!--                                                    Tell us about yourself. (Occupation/Any honors or distinctions/Recent work, etc):    *-->
+<!--                                                </label>-->
+<!--                                                <textarea class="form-control mb-30" name="about" id="about" cols="30" rows="6" placeholder="Your message" required></textarea>-->
+<!--                                            </div>-->
+<!--                                        </div>-->
+<!--                                        &lt;!&ndash; Form Group &ndash;&gt;-->
+<!--                                        <div class="col-12">-->
+<!--                                            <div class="form-group">-->
+<!--                                                <label style="color: white">-->
+<!--                                                    Briefly describe your idea and your reason for choosing the same. *-->
+<!--                                                </label>-->
+<!--                                                <textarea class="form-control mb-30" name="idea" id="idea" cols="30" rows="6" placeholder="Your Message" required></textarea>-->
+<!--                                            </div>-->
+<!--                                        </div>-->
+<!--                                        &lt;!&ndash; Form Group &ndash;&gt;-->
+<!--                                        <div class="col-12">-->
+<!--                                            <div class="form-group">-->
+<!--                                                <label style="color: white">-->
+<!--                                                    In one sentence, what is the key takeaway that you want the audience to know/ feel after listening to your talk?     *-->
+<!--                                                </label>-->
+<!--                                                <textarea class="form-control mb-30" name="takeaway" id="takeaway" cols="30" rows="6" placeholder="Your Message" required></textarea>-->
+<!--                                            </div>-->
+<!--                                        </div>-->
+<!--                                        &lt;!&ndash; Form Group &ndash;&gt;-->
+<!--                                        <div class="col-12">-->
+<!--                                            <div class="form-group">-->
+<!--                                                <label style="color: white">-->
+<!--                                                    Why do you want to be a TEDxIITGuwahati speaker?  *-->
+<!--                                                </label>-->
+<!--                                                <textarea class="form-control mb-30" name="why" id="why" cols="30" rows="6" placeholder="Your Message" required></textarea>-->
+<!--                                            </div>-->
+<!--                                        </div>-->
+<!--                                        &lt;!&ndash; Form Group &ndash;&gt;-->
+<!--                                        <div class="col-12">-->
+<!--                                            <div class="form-group">-->
+<!--                                                <label style="color: white">-->
+<!--                                                    Have you been a speaker before? Please share video links if possible. *-->
+<!--                                                </label>-->
+<!--                                                <textarea class="form-control mb-30" name="SpokenBefore" id="message4" cols="30" rows="6" placeholder="Your Message" required></textarea>-->
+<!--                                            </div>-->
+<!--                                        </div>-->
+<!--                                        &lt;!&ndash; Form Group &ndash;&gt;-->
+<!--                                        <div class="col-12">-->
+<!--                                            <div class="form-group">-->
+<!--                                                <label style="color: white">-->
+<!--                                                     Would you like to share some of your past talks/writings or anything that expresses you? If yes, please do share. *-->
+<!--                                                </label>-->
+<!--                                                <textarea class="form-control mb-30" name="PastTalk" id="message5" cols="30" rows="6" placeholder="Your Message" required></textarea>-->
+<!--                                            </div>-->
+<!--                                        </div>-->
+<!--                                        &lt;!&ndash; Button &ndash;&gt;-->
+<!--                                        <div class="col-12">-->
+<!--                                                <button type="submit" id="submit-form" class="btn confer-btn" >Send Message <i class="zmdi zmdi-long-arrow-right"></i></button>-->
+<!--                                        </div>-->
+
+<!--                                    </div>-->
+<!--                                </div>-->
+<!--                            </form>-->
+<!--                        </div>-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--            </div>-->
+<!--        </div>-->
+<!--    </section>-->
+
+<!-- Footer Area Start -->
+<footer class="footer-area bg-img bg-overlay-2 section-padding-20-0">
+    <!-- Main Footer Area -->
+    <div class="main-footer-area">
+        <div class="container">
+            <div class="row">
+                <!-- Single Footer Widget Area -->
+                <div class="col-12 col-sm-6 col-lg-3">
+                    <div class="single-footer-widget mb-60">
+                        <!-- Footer Logo -->
+                        <a href="/" class="footer-logo"><img src='{% static "images/ted_white.png" %}' alt=""></a>
+                        <!-- <p>Ideas Worth Spreading</p> -->
+
+                        <!-- Social Info -->
+                        <!-- <div class="social-info">
+                            <a href="https://www.facebook.com/TEDxIITGuwahati/" target="_blank"><i class="zmdi zmdi-facebook"></i></a>
+                            <a href="https://www.instagram.com/tedxiitguwahati/" target="_blank"><i class="zmdi zmdi-instagram"></i></a>
+                            <a href="https://twitter.com/tedxiitg" target="_blank"><i class="zmdi zmdi-twitter"></i></a>
+                            <a href="https://www.linkedin.com/company/tedx-iit-guwahati/" target="_blank"><i class="zmdi zmdi-linkedin"></i></a>
+<a href="https://tedxtalk-iitg.medium.com/" target="_blank"><i class="fa fa-medium" aria-hidden="true"></i></a> -->
+<!--                                <a href="https://tedxtalk-iitg.medium.com/" target="_blank"><i class="ant-design:medium-outlined"></i></a>-->
+<!--                            <iconify-icon data-icon="ant-design:medium-outlined"></iconify-icon>-->
+                        <!-- </div> -->
+                    </div>
+                </div>
+
+                <!-- Single Footer Widget Area  col-lg-3 -->
+                <div class="col-12 col-sm-6">
+                   <div class="single-footer-widget mb-60">
+                       <br />
+                        <h5 class="widget-title">Ideas Worth Spreading</h5>
+                        <div class="footer-contact-info">
+                            <p>This independent TEDx is operated under license from TED</p>
+                            <!-- <p><i class="zmdi zmdi-map"></i> IIT Guwahati</p> -->
+                            <!-- <p><i class="zmdi zmdi-phone"></i> Jaikishan Mansukhani:</p><p style="margin-left: 15px">+91 90757 19391 </p>
+                            <p><i class="zmdi zmdi-email"></i> iitg.tedx@gmail.com</p> -->
+
+                        </div>
+                    </div>
+                </div>
+
+
+                <!-- Single Footer Widget Area -->
+               <div class="col-12 col-sm-6 col-lg-3">
+                   <div class="single-footer-widget mb-60">
+                       <div class="social-info">
+                      <br>
+                        <a href="https://www.facebook.com/TEDxIITGuwahati/" target="_blank"><i class="zmdi zmdi-facebook"></i></a>
+                        <a href="https://www.instagram.com/tedxiitguwahati/" target="_blank"><i class="zmdi zmdi-instagram"></i></a>
+                        <a href="https://twitter.com/tedxiitg" target="_blank"><i class="zmdi zmdi-twitter"></i></a>
+                        <a href="https://www.linkedin.com/company/tedx-iit-guwahati/" target="_blank"><i class="zmdi zmdi-linkedin"></i></a>
+<a href="https://tedxtalk-iitg.medium.com/" target="_blank"><i class="fa fa-medium" aria-hidden="true"></i></a>
+<!--                                <a href="https://tedxtalk-iitg.medium.com/" target="_blank"><i class="ant-design:medium-outlined"></i></a>-->
+<!--                            <iconify-icon data-icon="ant-design:medium-outlined"></iconify-icon>-->
+                    </div>
+
+                   </div>
+               </div>
+
+                <!-- Single Footer Widget Area -->
+<!--                    <div class="col-12 col-sm-6 col-lg-3">-->
+<!--                        <div class="single-footer-widget mb-60">-->
+<!--                            &lt;!&ndash; Widget Title &ndash;&gt;-->
+
+
+<!--                            &lt;!&ndash; Footer Gallery &ndash;&gt;-->
+
+<!--                        </div>-->
+<!--                    </div>-->
+            </div>
+        </div>
+    </div>
+
+<!--         Copywrite Area-->
+    <!-- <div class="container">
+        <div class="copywrite-content">
+            <div class="row"> -->
+                <!-- Copywrite Text -->
+                <!-- <div class="col-12 col-md-6">
+                    <div class="copywrite-text"> -->
+                        <!--<p> Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+<!--Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>-->
+                            <!-- This independent TEDx event is operated under license from TED. -->
+<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. </p>-->
+                    <!-- </div>
+                </div> -->
+                <!-- Footer Menu -->
+<!--                    <div class="col-12 col-md-6">-->
+<!--                        <div class="footer-menu">-->
+<!--                            <ul class="nav">-->
+<!--                                <li><a href="#"><i class="zmdi zmdi-circle"></i> Terms of Service</a></li>-->
+<!--                                <li><a href="#"><i class="zmdi zmdi-circle"></i> Privacy Policy</a></li>-->
+<!--                            </ul>-->
+<!--                        </div>-->
+<!--                    </div>-->
+            <!-- </div>
+        </div>
+    </div> -->
+</footer>
+<!-- Footer Area End -->
+
+<!-- **** All JS Files ***** -->
+<!-- jQuery 2.2.4 -->
+<script src='{% static "js/jquery.min.js" %}'></script>
+<!-- Popper -->
+<script src='{% static "js/popper.min.js" %}'></script>
+<!-- Bootstrap -->
+<script src='{% static "js/bootstrap.min.js" %}'></script>
+<!-- All Plugins -->
+<script src='{% static "js/confer.bundle.js" %}'></script>
+<!-- Active -->
+<script src='{% static "js/default-assets/active.js" %}'></script>
+
+</body>
+
+</html>

@@ -21,11 +21,14 @@ def addSpeaker(request):
 def nominate_yourself(request):
     return render(request, 'speakers/form2.html')
 
+
 def unrestricted(request):
-    return render(request, 'speakers/unrestricted.html') 
+    return render(request, 'speakers/unrestricted.html')
+
 
 def contact(request):
-    return render(request, 'speakers/contact.html')       
+    return render(request, 'speakers/contact.html')
+
 
 def speakerDesc1(request):
     return render(request, 'speakers/speaker21.html')
@@ -56,7 +59,7 @@ def speakerDesc7(request):
 
 
 def speakerDesc8(request):
-    return render(request, 'speakers/speaker11.html')  
+    return render(request, 'speakers/speaker11.html')
 
 
 def speakerDesc9(request):
@@ -79,5 +82,37 @@ def speakerDesc13(request):
     return render(request, 'speakers/speaker16.html')
 
 
+def speakerDesc14(request):
+    return render(request, 'speakers/speaker31.html')
 
 
+def speakerDesc15(request):
+    return render(request, 'speakers/speaker32.html')
+
+
+def speakerDesc16(request):
+    return render(request, 'speakers/speaker33.html')
+
+
+def speakerDesc17(request):
+    return render(request, 'speakers/speaker34.html')
+
+
+def speakerDesc18(request):
+    return render(request, 'speakers/speaker35.html')
+
+
+def speakerDesc19(request):
+    return render(request, 'speakers/speaker36.html')
+
+
+def speakerDesc20(request):
+    return render(request, 'speakers/speaker37.html')
+
+
+def speakerDesc21(request):
+    return render(request, 'speakers/speaker38.html')
+
+
+def speakerDesc22(request):
+    return render(request, 'speakers/speaker39.html')
